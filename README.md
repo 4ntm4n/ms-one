@@ -68,4 +68,4 @@ footer will contain a copyright claim and links to social media platforms.
 Signup 
 
 Signup will be a separate page that let new users sign up to the paid-section of the site. It will consist of a form. 
-Apart from the form there will also be a free yoga session video. the video is intended to let users know what to expect if they signup as well as inspire them to do so. 
+Apart from the form there will also be a free yoga session video. the video is intended to let users know what to expect if they signup as well inspire them to do so. 
