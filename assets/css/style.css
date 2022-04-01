@@ -41,15 +41,21 @@ header{
 
 #main-nav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 
+
+#main-nav > li:last-child{
+    margin-right: 50px;
+}
+
 #main-nav a {
-    display:block;
+    display:inline-block;
     background-color: yellow;
     padding: 20px;
     margin:2px;
+    white-space: nowrap; 
 }
 
 /* about section */
