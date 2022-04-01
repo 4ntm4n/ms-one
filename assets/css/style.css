@@ -17,7 +17,7 @@ li {
 /* css grid */
 .main-grid{
     display: grid;
-    grid-template-rows: repeat(5, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fit, repeat(100px, 1fr));
     grid-template-areas:
         "header"
         "about"
@@ -37,6 +37,7 @@ nav{ display:none}
 /* header section */
 header{
     grid-area: header;
+    height: 600px;
 }
 
 #main-nav{
