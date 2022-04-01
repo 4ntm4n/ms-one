@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.container {
+    max-width: 1200px;
+}
+
 /* css grid */
 .main-grid{
     display: grid;
@@ -21,6 +25,8 @@
     border: 1px solid grey;
     box-sizing: border-box;
 }
+
+
 
 /* header section */
 header{
