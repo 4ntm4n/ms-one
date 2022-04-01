@@ -1,13 +1,18 @@
 /* css grid */
 
-main-grid{
+.main-grid{
     display: grid;
-    grid-template-rows: repeat(5, 1fr minmax(100px, 1fr));
+    grid-template-rows: repeat(5, minmax(100px, 1fr));
     grid-template-areas:
         "header"
         "about"
         "benefits"
         "join"
-        "footer"
-    ;
+        "footer";
+}
+
+.main-grid > *{
+    background-color: pink;
+    border: 1px solid grey;
+    box-sizing: border-box;
 }
