@@ -1,4 +1,4 @@
-/* general styling */
+/* general styling and reusable classes */
 
 *{
     margin: 0;
@@ -13,6 +13,11 @@ li {
     max-width: 1200px;
     background-color: blue;
 }
+
+.flex-box{
+    display: flex;
+}
+
 
 /* css grid */
 .main-grid{
@@ -32,9 +37,11 @@ li {
     box-sizing: border-box;
 }
 
-nav{ display:none}
+
 
 /* header section */
+nav{ display:none}
+
 header{
     grid-area: header;
     height: 600px;
@@ -58,16 +65,33 @@ header{
     white-space: nowrap; 
 }
 
-/* header textbox */
-
+/* header #hero-info */
+#hero-info{
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
 
 .text-box{
     text-align: center;
-
+    border: 1px solid white;
+    box-sizing: border-box;
 }
 
-#greetings{
+.text-box > h1 {
+    font-size: 60px;
+    margin: 0.7em;
+}
 
+.text-box > p {
+    margin: 2em;
+}
+
+
+
+#greetings{
+    height: 24em;
+    width: 20em;
 }
 
 /* about section */
