@@ -4,9 +4,14 @@
     margin: 0;
 }
 
+li {
+    list-style: none;
+}
+
 .container {
     margin: auto;
     max-width: 1200px;
+    background-color: blue;
 }
 
 /* css grid */
@@ -32,6 +37,19 @@
 /* header section */
 header{
     grid-area: header;
+}
+
+#main-nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+#main-nav a {
+    display:block;
+    background-color: yellow;
+    padding: 20px;
+    margin:2px;
 }
 
 /* about section */
