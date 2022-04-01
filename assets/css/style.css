@@ -16,3 +16,21 @@
     border: 1px solid grey;
     box-sizing: border-box;
 }
+
+header{
+    grid-area: header;
+}
+
+#about{
+    grid-area: about;
+}
+
+#benefits{
+    grid-area: benefits;
+}
+#join{
+    grid-area: join;
+}
+footer{
+    grid-area: footer;
+}
