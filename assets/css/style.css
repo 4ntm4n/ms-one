@@ -18,10 +18,13 @@ a{
     margin: auto;
     max-width: 1200px;
     background-color: blue;
+    
 }
 
 .flex-box{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-box{
@@ -32,6 +35,11 @@ a{
     align-items: center;
     text-align: center;
     padding: 2em;
+    width: 20em;
+}
+
+.text-box > h1, h2, h3, p, a{
+    margin: 1em 0.1em;
 }
 
 
@@ -88,8 +96,6 @@ header{
 }
 
 #hero-info{
-    justify-content: center;
-    align-items: center;
     height: 600px;
 }
 
@@ -102,13 +108,20 @@ header{
 }
 
 #greetings{
-    height: 24em;
     width: 20em;
 }
 
 /* about section */
 #about{
     grid-area: about;
+}
+
+#selfie {
+    height:18em;
+    width: 18em;
+    border: 1px dashed white;
+    border-radius: 50%;
+    margin-bottom: 2em;
 }
 
 /* benefit section */
