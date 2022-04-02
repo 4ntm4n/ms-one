@@ -84,3 +84,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queri
 
 styling input fields:
 https://www.w3schools.com/css/css_form.asp
+
+hiding elemens off screen so that they dont take up screen realestate when they have visibility:hidden property set to them:
+
+https://stackoverflow.com/questions/6746649/how-can-i-hide-an-element-off-the-edge-of-the-screen
