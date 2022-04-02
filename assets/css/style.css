@@ -50,6 +50,10 @@ label {
     margin: 1em 0.1em;
 }
 
+.center{
+    text-align: center;
+}
+
 
 /* css grid */
 .main-grid{
@@ -210,6 +214,10 @@ header{
     grid-area: join;
 } 
 
+#newsletter{
+    margin: 2em;
+    flex-direction: column;
+}
 
 
 /* footer section */
