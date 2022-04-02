@@ -284,10 +284,16 @@ footer {
     width: 40%;
   }
   #letter-form {
+      height: 10em;
+      background-color: red;
     flex-direction: row;
+    align-items: flex-start;
   }
 
-  
+  #letter-submit{
+      align-self: flex-end;
+      justify-self: flex-start;
+  }
 
 }
 
