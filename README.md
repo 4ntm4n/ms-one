@@ -75,3 +75,6 @@ Apart from the form there will also be a free yoga session video. the video is i
 these people will be credited if I use their images from freepik
 <a href='https://www.freepik.com/vectors/flower'>Flower vector created by rawpixel.com - www.freepik.com</a>
 <a href='https://www.freepik.com/vectors/city'>City vector created by pch.vector - www.freepik.com</a>
+
+how to ease everything on hover:
+https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover

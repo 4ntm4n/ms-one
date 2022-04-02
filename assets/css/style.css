@@ -148,7 +148,19 @@ header{
     border-radius: 0.2em;
     padding:0;
     box-shadow: rgba(70, 70, 70, 0.70) 1px 4px 8px; 
+    transition: all ease .5s;
+    
+    
 }
+
+.card:hover{
+    box-shadow: rgba(70, 70, 70, 0.70) 6px 20px 10px; 
+    transform: translateY(-0.1em);
+    
+
+
+}
+
 
 .card-text-bg{
     background: rgb(184, 181, 226);
@@ -156,6 +168,9 @@ header{
     height: 40%;
     border-radius: 10% 10% 0 0;
     color: rgb(97, 97, 97); 
+   font-size: ;
+    
+    
 }
 
 
