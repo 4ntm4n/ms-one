@@ -272,6 +272,7 @@ footer{
         width: 40%;
       }
     #benefits-container{
+        gap: 30px;
     }  
 }  
 
