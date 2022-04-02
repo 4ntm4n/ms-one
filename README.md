@@ -69,3 +69,9 @@ Signup
 
 Signup will be a separate page that let new users sign up to the paid-section of the site. It will consist of a form. 
 Apart from the form there will also be a free yoga session video. the video is intended to let users know what to expect if they signup as well inspire them to do so. 
+
+
+
+these people will be credited if I use their images from freepik
+<a href='https://www.freepik.com/vectors/flower'>Flower vector created by rawpixel.com - www.freepik.com</a>
+<a href='https://www.freepik.com/vectors/city'>City vector created by pch.vector - www.freepik.com</a>

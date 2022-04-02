@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+ul{
+    padding: 0;
+}
+
 li {
     list-style: none;
 }
@@ -127,6 +131,13 @@ header{
 /* benefit section */
 #benefits{
     grid-area: benefits;
+}
+
+
+.card{
+    width: 10em;
+    height:15em;
+    background-color: white
 }
 
 /* join section */
