@@ -243,7 +243,7 @@ header {
   border: none;
 }
 
-#letter-form {
+.letter-form {
   flex-direction: column;
 }
 
@@ -283,7 +283,7 @@ footer {
   #about-text {
     width: 40%;
   }
-  #letter-form {
+  .letter-form {
       height: 10em;
       background-color: red;
     flex-direction: row;
