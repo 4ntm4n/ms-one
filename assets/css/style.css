@@ -237,11 +237,14 @@ header {
 #newsletter {
   margin: 2em;
   flex-direction: column;
+  max-width: 765px;
+  background: whitesmoke;
 }
 
-#newsletter > fieldset {
+.letter-form > fieldset {
   border: none;
 }
+
 
 .letter-form {
   flex-direction: column;
@@ -283,28 +286,18 @@ footer {
   #about-text {
     width: 40%;
   }
+    
+  #letter-form{
+      flex-direction: column;
+  }
+
   .letter-form {
-      height: 10em;
-      background-color: red;
     flex-direction: row;
-    align-items: flex-start;
   }
-
-  #letter-submit{
-      align-self: flex-end;
-      justify-self: flex-start;
-  }
-
+ 
 }
 
 @media only screen and (min-width: 768px) {
-  #about-box {
-    background-color: lightblue;
-    min-height: 800px;
-  }
-  #about-text {
-    width: 40%;
-  }
   #benefits-container {
     gap: 30px;
   }
