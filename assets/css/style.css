@@ -62,13 +62,14 @@ a {
 }
 
 .btn {
-    display: block;
-    border: 1px solid white;
-    color: white;
-    padding: 0.3em 1em;
-    font-size: 1.4em;
-  }
-  
+  display: block;
+  border: 1px solid white;
+  color: white;
+  padding: 0.3em 1em;
+  font-size: 1.4em;
+  border-radius: 20px;
+}
+
 
 input[type=submit].btn{
     background-color: pink;
@@ -252,7 +253,7 @@ header {
 
   .form-field{
       padding: 1em;
-      border-radius: 0;
+      border-radius: 20px;
       border: none;
       width: 100%;
       border: 1px solid white;
@@ -262,7 +263,6 @@ header {
 
   .form-field:focus{
     padding: 1em;
-    border-radius: 0;
     width: 100%;
     background-color: white;
     box-shadow: 0;
@@ -283,6 +283,12 @@ footer {
   #about-text {
     width: 40%;
   }
+  #letter-form {
+    flex-direction: row;
+  }
+
+  
+
 }
 
 @media only screen and (min-width: 768px) {
