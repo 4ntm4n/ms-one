@@ -78,3 +78,6 @@ these people will be credited if I use their images from freepik
 
 how to ease everything on hover:
 https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover
+
+using media queries:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries

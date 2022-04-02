@@ -54,6 +54,9 @@ label {
     text-align: center;
 }
 
+.hidden{
+    visibility: hidden;
+}
 
 /* css grid */
 .main-grid{
@@ -128,12 +131,25 @@ header{
     grid-area: about;
 }
 
+#about-box {
+    
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 950px;
+    
+}
+
 #selfie {
     height:18em;
     width: 18em;
     border: 1px dashed white;
     border-radius: 50%;
-    margin-bottom: 2em;
+    margin: 2em;
+}
+
+#about-text {
+    margin: 2em;
 }
 
 /* benefit section */
@@ -143,7 +159,7 @@ header{
 
 #benefits-container{
     flex-flow: row wrap;
-    max-width: 700px;
+    max-width: 950px;
     padding-top: 40px;
 }
 
@@ -219,8 +235,33 @@ header{
     flex-direction: column;
 }
 
+#newsletter > fieldset {
+    border: none;
+}
+
+#letter-form{
+    flex-direction: column;
+}
+
+#letter-form > input{
+    margin:0.4em;
+}
 
 /* footer section */
 footer{
     grid-area: footer;
 }
+
+@media only screen and (min-width: 752px) {
+    #about-box {
+      background-color: lightblue;
+      min-height: 800px;
+    }
+    #about-text {
+        width: 40%;
+      }
+
+}  
+
+}
+     

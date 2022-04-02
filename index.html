@@ -40,12 +40,12 @@
         </header>
         <section id="about">
             <div class="container flex-box">
-                <div class="text-box flex-box">
+                <div id="about-box" class="flex-box">
                     <div id="selfie">
                         <img src="" alt="a picture of me doing yoga">
                     </div>
 
-                    <div id="about-text">
+                    <div id="about-text" class="text-box">
                         <h1>hello, world</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum exercitationem nobis obcaecati cum tempora? Et tempore ipsam ducimus doloremque, dignissimos cumque quae sint, ut asperiores eos consequatur, quia ex pariatur.</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam minima eius, dignissimos suscipit at inventore iure non obcaecati similique ea neque atque labore, pariatur eligendi eum architecto dolorum blanditiis quam.</p>
@@ -110,16 +110,16 @@
                         <p>if you are feeling more advanced, you can join my live sessions and advanced yoga content by <a href="#">signing up here</a>.</p>
                     </div>
                     <fieldset>
-                        <legend>Sign-up for the newsletter</legend>
-                        <form action="#" type="POST">
+                        <legend class="hidden">Sign up for the newsletter here</legend>
+                        <form id="letter-form" action="#" type="POST" class="flex-box">
 
-                            <label for="fname">First Name</label>
+                            <label class="hidden" for="fname">First Name</label>
                             <input placeholder="First Name" required id="fname" type="text">
                             
-                            <label for="lname">Last Name</label>
+                            <label class="hidden" for="lname">Last Name</label>
                             <input placeholder="Last Name" id="lname" type="text">
 
-                            <label for="email">Email Adress</label>
+                            <label class="hidden" for="email">Email Adress</label>
                             <input placeholder="email address" id="email" type="email">
 
                             <input value="Yoga!" type="submit">
