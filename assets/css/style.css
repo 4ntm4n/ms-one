@@ -159,8 +159,8 @@ header{
 
 #benefits-container{
     flex-flow: row wrap;
-    max-width: 950px;
-    padding-top: 40px;
+    max-width: 765px;
+    padding: 2em 0;
 }
 
 .card{
@@ -252,7 +252,7 @@ footer{
     grid-area: footer;
 }
 
-@media only screen and (min-width: 752px) {
+@media only screen and (min-width: 740px) {
     #about-box {
       background-color: lightblue;
       min-height: 800px;
@@ -260,8 +260,19 @@ footer{
     #about-text {
         width: 40%;
       }
-
 }  
 
-}
+
+@media only screen and (min-width: 768px) {
+    #about-box {
+      background-color: lightblue;
+      min-height: 800px;
+    }
+    #about-text {
+        width: 40%;
+      }
+    #benefits-container{
+    }  
+}  
+
      
