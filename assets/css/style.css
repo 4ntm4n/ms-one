@@ -133,6 +133,10 @@ header{
     grid-area: benefits;
 }
 
+#benefits-container{
+    
+}
+
 .card{
     width: 10em;
     height:15em;
@@ -154,21 +158,19 @@ header{
 }
 
 .card:hover{
-    box-shadow: rgba(70, 70, 70, 0.70) 6px 20px 10px; 
+    box-shadow: rgba(70, 70, 70, 0.247) 6px 20px 10px; 
     transform: translateY(-0.1em);
-    
-
-
+    z-index: 2;
 }
 
 
 .card-text-bg{
-    background: rgb(184, 181, 226);
+    background: rgb(238, 183, 183);
     width:100%;
     height: 40%;
     border-radius: 10% 10% 0 0;
-    color: rgb(97, 97, 97); 
-   font-size: ;
+    color: rgb(255, 255, 255); 
+   font-size: 1.4em;
     
     
 }
@@ -176,14 +178,29 @@ header{
 
 /* setting background-images for #benefits .card */
 #benefit-one{
-    background: url(../img/cards/yogapose1.png) center center;
+    background: url(../img/cards/yogapose1.png) center;
     background-size: cover;
 }
-#benefit-tow{}
-#benefit-three{}
-#benefit-four{}
-#benefit-five{}
-#benefit-six{}
+#benefit-two{
+    background: url(../img/cards/yogapose2.png) center;
+    background-size: cover;
+}
+#benefit-three{
+    background: url(../img/cards/yogapose3.png) center;
+    background-size: cover;
+}
+#benefit-four{
+    background: url(../img/cards/yogapose4.png) center;
+    background-size: cover;
+}
+#benefit-five{
+    background: url(../img/cards/yogapose5.png) center;
+    background-size: cover;
+}
+#benefit-six{
+    background: url(../img/cards/yogapose6.png) center;
+    background-size: cover;
+}
 
 
 /* join section */
