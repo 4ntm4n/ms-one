@@ -16,6 +16,10 @@ a{
     text-decoration: none;
 }
 
+label {
+    display: block;
+}
+
 /* reusable classes */
 
 .container {
@@ -204,7 +208,9 @@ header{
 /* join section */
 #join{
     grid-area: join;
-}
+} 
+
+
 
 /* footer section */
 footer{
