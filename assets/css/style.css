@@ -134,17 +134,14 @@ header{
 }
 
 #benefits-container{
-    
+    flex-direction: column;
 }
 
 .card{
     width: 10em;
     height:15em;
-    background-color: white
-}
+    background-color: white;
 
-
-.card{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -153,8 +150,6 @@ header{
     padding:0;
     box-shadow: rgba(70, 70, 70, 0.70) 1px 4px 8px; 
     transition: all ease .5s;
-    
-    
 }
 
 .card:hover{
