@@ -319,20 +319,13 @@ footer {
 /* header section */
     #hero-info{
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;        
     }
 
     #greetings {
-        margin-right: 20%;
+        margin-right: 10%
     }
 
-    .tiny-screen {
-        display: none;
-    }
-
-    .big-screen {
-        display: block;
-    }
 
  
 /* join section */
@@ -348,8 +341,27 @@ footer {
 
 @media only screen and (min-width: 740px) {
 /* header section */
+#hero-info{
+    
+}
+
 #greetings {
     margin-right: 11%;
+    flex-shrink: 1;
+}
+
+.tiny-screen {
+    display: none;
+}
+
+.big-screen {
+    display: block;
+}
+
+#big-welcome-heading{
+    font-size: 10vw;
+    max-width: 40%;
+    flex-shrink: 3;
 }
 
 /* about section */
@@ -375,7 +387,18 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+/* heading section */
+
+
+/* benefits  section*/
   #benefits-container {
     gap: 30px;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+/* heading section */
+    #big-welcome-heading{
+        font-size: 8em;
+    }    
 }
