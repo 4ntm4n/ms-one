@@ -62,10 +62,7 @@ a {
 .hidden {
   visibility: hidden;
   position: absolute;
-  height: 100px;
-  width: 100px;
-  right: -50px;
-  top: 50px;
+
  
 }
 
@@ -292,15 +289,19 @@ footer {
   grid-area: footer;
 }
 
+.social-links a{
+    color: white;
+    font-size: 2.2em;
+}
+
 @media only screen and (min-width: 580px) {
   #newsletter-info {
     width: 100%;
     padding: 2em;
   }
   #newsletter-info > p{
-    width: 70%;
+    width: 80%;
     margin: 1em auto;
-    text-align: ;
   }
 }
 

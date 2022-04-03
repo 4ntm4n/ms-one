@@ -88,3 +88,7 @@ https://www.w3schools.com/css/css_form.asp
 hiding elemens off screen so that they dont take up screen realestate when they have visibility:hidden property set to them:
 
 https://stackoverflow.com/questions/6746649/how-can-i-hide-an-element-off-the-edge-of-the-screen
+
+
+adding script to bottom of the page:
+https://stackoverflow.com/questions/38407962/when-to-use-the-script-tag-in-the-head-and-body-section-of-a-html-page#:~:text=Put%20your%20functions%20in%20the,not%20interfere%20with%20page%20content.&text=If%20your%20is%20not%20placed,of%20the%20element.
