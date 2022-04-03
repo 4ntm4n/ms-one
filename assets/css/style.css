@@ -198,7 +198,7 @@ header {
   border-radius: 0.2em;
   padding: 0;
   box-shadow: rgba(70, 70, 70, 0.7) 1px 4px 8px;
-  transition: all ease 0.5s;
+  transition: box-shadow, transform ease .5s;
 }
 
 .card:hover {
