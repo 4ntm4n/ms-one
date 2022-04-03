@@ -107,7 +107,7 @@ nav {
 }
 header {
   grid-area: header;
-  height: 1000px;
+  height: 600px;
   background: url(../img/AdobeStock_330497250_mirrored_rezised.webp) bottom center;
   background-size: cover;
   background-position: fixed;
@@ -255,7 +255,6 @@ header {
 }
 
 #newsletter-info {
-    
     padding-bottom: 0;
 }
 
@@ -326,7 +325,8 @@ footer {
 /* header section */
     #hero-info{
         flex-direction: row;
-        justify-content: flex-end;        
+        justify-content: flex-end;  
+        
     }
 
     #greetings {
@@ -350,6 +350,7 @@ footer {
 /* header section */
 #hero-info{
     justify-content: space-around;
+    
 }
 
 #greetings {
@@ -397,13 +398,17 @@ footer {
   .card {
       width: 12em;
       height: 19em;
+      transition: ease .1s;
   }
 
 }
 
 @media only screen and (min-width: 768px) {
-/* heading section */
-
+/* header section */
+header {
+    height: 700px;
+    transition: all ease .5s;      
+}
 
 /* benefits  section*/
   #benefits-container {
@@ -438,5 +443,6 @@ footer {
     .card{
         width: 15em;
         height: 24em;
+        
       }
 }
