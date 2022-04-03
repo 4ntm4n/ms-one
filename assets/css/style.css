@@ -22,6 +22,9 @@ label {
 
 /* reusable classes */
 
+.overflow{
+    overflow: hidden;
+}
 .container {
   margin: auto;
   max-width: 1200px;
@@ -134,7 +137,8 @@ header {
 
 #hero-info {
   height: 600px;
-  background: purple;
+  background: url() center no-repeat ;
+  background-size: cover;
 }
 
 #greetings {
@@ -159,6 +163,10 @@ header {
   border: 1px dashed white;
   border-radius: 50%;
   margin: 2em;
+}
+
+#selfie > img {
+    width: 19em;
 }
 
 #about-text {

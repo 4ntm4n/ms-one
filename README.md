@@ -75,6 +75,7 @@ Apart from the form there will also be a free yoga session video. the video is i
 these people will be credited if I use their images from freepik
 <a href='https://www.freepik.com/vectors/flower'>Flower vector created by rawpixel.com - www.freepik.com</a>
 <a href='https://www.freepik.com/vectors/city'>City vector created by pch.vector - www.freepik.com</a>
+<a href='https://www.freepik.com/photos/yoga-nature'>Yoga nature photo created by jcomp - www.freepik.com</a>
 
 how to ease everything on hover:
 https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover
@@ -92,3 +93,7 @@ https://stackoverflow.com/questions/6746649/how-can-i-hide-an-element-off-the-ed
 
 adding script to bottom of the page:
 https://stackoverflow.com/questions/38407962/when-to-use-the-script-tag-in-the-head-and-body-section-of-a-html-page#:~:text=Put%20your%20functions%20in%20the,not%20interfere%20with%20page%20content.&text=If%20your%20is%20not%20placed,of%20the%20element.
+
+
+center an image from html through css
+https://www.w3schools.com/howto/howto_css_image_center.asp
