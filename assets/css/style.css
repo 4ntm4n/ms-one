@@ -319,11 +319,11 @@ footer {
 /* header section */
     #hero-info{
         flex-direction: row;
-        justify-content: space-around;        
+        justify-content: flex-end;        
     }
 
     #greetings {
-        margin-right: 10%
+        margin-right: 10%;
     }
 
 
@@ -342,7 +342,7 @@ footer {
 @media only screen and (min-width: 740px) {
 /* header section */
 #hero-info{
-    
+    justify-content: space-around;
 }
 
 #greetings {
