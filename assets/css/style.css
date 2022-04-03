@@ -183,7 +183,6 @@ header {
   flex-flow: row wrap;
   max-width: 1200px;
   padding: 2em 0;
-  background: red;
 }
 
 .card {
@@ -270,8 +269,6 @@ header {
   
 }
 
-#letter-form > input {
-}
 
 .form-field {
   padding: 1em;
@@ -410,7 +407,7 @@ footer {
 
 /* benefits  section*/
   #benefits-container {
-    gap: 40px;
+    gap: 50px;
   }
 
 
