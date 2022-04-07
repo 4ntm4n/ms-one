@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 ul {
   padding: 0;
 }
@@ -102,9 +106,7 @@ input[type="submit"].btn {
 }
 
 /* header section */
-nav {
-  display: none;
-}
+
 header {
   grid-area: header;
   height: 600px;
