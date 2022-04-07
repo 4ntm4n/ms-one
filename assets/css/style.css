@@ -4,9 +4,9 @@
   margin: 0;
 }
 
-html {
+/* html {
 	scroll-behavior: smooth;
-}
+} */
 
 ul {
   padding: 0;
@@ -118,12 +118,10 @@ header {
 /* header > nav */
 #main-nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  
 }
 
-#main-nav > li:last-child {
-  margin-right: 2em;
-}
 
 #main-nav a {
   display: inline-block;
@@ -325,6 +323,20 @@ footer {
 
 @media only screen and (min-width: 580px) {
 /* header section */
+
+    /* nav */
+
+    #main-nav {
+        display: flex;
+        justify-content: flex-end;
+        
+      }
+      
+      #main-nav > li:last-child {
+          margin-right: 2em;
+        }
+    /* hero */
+
     #hero-info{
         flex-direction: row;
         justify-content: flex-end;  
