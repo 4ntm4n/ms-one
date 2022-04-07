@@ -97,3 +97,6 @@ https://stackoverflow.com/questions/38407962/when-to-use-the-script-tag-in-the-h
 
 center an image from html through css
 https://www.w3schools.com/howto/howto_css_image_center.asp
+
+smooth-scrolling:
+https://gomakethings.com/smooth-scrolling-links-with-only-css/
