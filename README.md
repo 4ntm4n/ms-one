@@ -100,3 +100,7 @@ https://www.w3schools.com/howto/howto_css_image_center.asp
 
 smooth-scrolling:
 https://gomakethings.com/smooth-scrolling-links-with-only-css/
+
+hamburger menu:
+found this burger menu method, imported it and modified it to suit this website.
+https://codepen.io/alvarotrigo/pen/wvrzPWL
