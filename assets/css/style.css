@@ -131,7 +131,14 @@ header {
   padding: 10px;
   margin: 2px;
   white-space: nowrap;
+  transition: all ease 0.5s;
+  
 }
+
+#main-nav a:hover {
+    box-shadow: rgba(121, 121, 121, 0.7) 1px 4px 8px;
+}
+
 
 /* header #hero-info */
 
