@@ -33,9 +33,102 @@
                
             </nav>
         </header>
-       
+        <section>
+            <form id="letter-form" action="#" type="POST" class="letter-form flex-box">
+                <fieldset class="flex-box letter-form">
+                    <legend class=>Create an account</legend>
+                    <label class="hidden" for="email">Email Adress</label>
+                    <input class="form-field" placeholder="email address" id="email" type="email" required>
 
+                    <label class="hidden"  for="password">Password</label>
+                    <input class="form-field" placeholder="Password" id="password" type="password" required>
 
+                    <label class="hidden" for="password">Confirm Password</label>
+                    <input class="form-field" placeholder="Confirm Password" id="password" type="password" required>
+                </fieldset>
+
+               <details>
+                   <summary>
+                     <h4> <i class="fa-solid fa-credit-card"></i>Click here to fill in your Payment Details</h4>
+                   </summary>
+
+                   <fieldset class="flex-box letter-form">
+                    <legend class=>card info</legend>
+                    <h5>we accept the following cards:</h5>
+                    <ul class="accepted-cards flex-box">
+                        <li class="paycard"><i class="fa-brands fa-cc-mastercard"></i></li>
+                        <li class="paycard"><i class="fa-brands fa-cc-visa"></i></li>
+                        <li class="paycard"><i class="fa-brands fa-cc-amex"></i></li>
+                    </ul>
+                    <label for="cname">Name on Card</label>
+                    <input class="form-field" name="cardname" placeholder="John Doe" id="cname" type="text" required>
+
+                    <label for="cnumb">Credit card number</label>
+                    <input class="form-field" name="cardnumber" placeholder="1111-2222-3333-4444" id="cnumb" type="text" required>
+
+                    <label  for="expmonth">Exp Month</label>
+                    <input class="form-field" name="expmonth" placeholder="April" id="expmonth" type="text" required>
+
+                    <label  for="expyear">Exp Year</label>
+                    <input class="form-field" name="expyear" placeholder="2022" id="expyear" type="text" required>
+
+                    <label  for="cvv">CVV</label>
+                    <input class="form-field" name="cvv" placeholder="333" id="cvv" type="text" required>
+                </fieldset>
+
+                <!-- this part is copied from a w3 school example. and modified with my own form-field class (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form) -->
+                <fieldset class="flex-box letter-form">
+                    <legend class=>Billing</legend>
+                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                    <input class="form-field" type="text" id="fname" name="firstname" placeholder="John M. Doe" required>
+
+                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                    <input class="form-field" type="text" id="email" name="email" placeholder="john@example.com" required>
+
+                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                    <input class="form-field" type="text" id="adr" name="address" placeholder="542 W. 15th Street" required>
+
+                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                    <input class="form-field" type="text" id="city" name="city" placeholder="New York" required>
+
+                    <label for="state">State</label>
+                    <input class="form-field" type="text" id="state" name="state" placeholder="NY" required>
+
+                    <label for="zip">Zip</label>
+                    <input class="form-field" type="text" id="zip" name="zip" placeholder="10001" required>
+                </fieldset>
+                   
+                   
+               </details>
+                <input id="letter-submit" class="btn" value="Let's go!" type="submit" required>
+            </form>
+            <form id="letter-form" action="#" type="POST" class="letter-form flex-box">
+                <fieldset class="flex-box letter-form">
+                    <legend>Already a member? log in here!</legend>
+
+                    <label class="hidden" for="email">Email Adress</label>
+                    <input class="form-field" name="email" placeholder="email address" id="email" type="email" required>
+
+                    <label class="hidden"  for="password">Password</label>
+                    <input class="form-field" name="password" placeholder="Password" id="password" type="password" required>
+
+                </fieldset>
+                <input id="letter-submit" class="btn" value="Log in" type="submit">
+            </form>
+           
+        </section>
+        <footer>
+            <div id="footer-container" class="container flex-box">
+                <ul class="social-links flex-box">
+                    <li><a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+
+                <h6 id="copyrights">&copy Flexgrid Yoga 2022</h6>
+            </div>
+        </footer>
+    
     <!-- script to import icon library from fontawesome (https://fontawesome.com/) -->
     <script src="https://kit.fontawesome.com/2759c1d447.js" crossorigin="anonymous"></script>
 </body>
