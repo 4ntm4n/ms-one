@@ -43,13 +43,15 @@ label {
 
 .text-box {
   border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.911);
   box-sizing: border-box;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   padding: 2em;
-  width: 20em;
+  width: 22em;
+     margin: auto;
 }
 
 .text-box > h1,
@@ -83,12 +85,11 @@ a {
 }
 
 fieldset {
-    border: 1px solid white !important;
     padding: 2em;
 }
 
 input[type="submit"].btn {
-  background-color: pink;
+  background-color: #d6809c;
   border: 0;
 }
 
@@ -148,12 +149,6 @@ details summary {
     "benefits"
     "join"
     "footer";
-}
-
-.main-grid > * {
-  background-color: pink;
-  border: 1px solid grey;
-  box-sizing: border-box;
 }
 
 /* header section */
@@ -315,6 +310,7 @@ header {
 /* about section */
 #about {
   grid-area: about;
+  background-color:#dac9dd;
 }
 
 #about-box {
@@ -322,14 +318,15 @@ header {
   align-items: center;
   justify-content: space-around;
   max-width: 1200px;
+  box-shadow: 10px 10px 10px 10px;
 }
 
 #selfie {
   height: 18em;
   width: 18em;
-  border: 1px dashed white;
   border-radius: 50%;
   margin: 2em;
+  box-shadow: rgba(71, 71, 71, 0.158) 1px 10px 20px 2px;
 }
 
 #selfie > img {
@@ -338,11 +335,13 @@ header {
 
 #about-text {
   margin: 2em;
+  box-shadow: rgba(71, 71, 71, 0.158) 1px 10px 20px 2px;
 }
 
 /* benefit section */
 #benefits {
   grid-area: benefits;
+  background-color: #faf5ef;
 }
 
 #benefits-container {
@@ -355,8 +354,7 @@ header {
   margin: 1em;
   width: 10em;
   height: 15em;
-  background-color: white;
-
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -411,13 +409,15 @@ header {
 /* join section */
 #join {
   grid-area: join;
+  background: url(../img/4258076.webp) center center no-repeat;
+  background-size: cover;
 }
 
 #newsletter {
   margin: 2em;
   flex-direction: column;
   max-width: 765px;
-  background: whitesmoke;
+  background: rgba(245, 245, 245, 0.911);
 }
 
 #newsletter-info {
@@ -431,6 +431,7 @@ header {
 .letter-form {
   flex-direction: column;
   overflow: hidden;
+ 
 }
 
 #letter-form {
@@ -463,6 +464,7 @@ header {
 /* footer section */
 footer {
   grid-area: footer;
+  background-color: #927397 !important;
 }
 
 #footer-container{
@@ -470,7 +472,6 @@ footer {
     width: 100%;
     flex-direction: column;
     justify-content: flex-end;
-    background:  green;
 }
 
 .social-links{
@@ -480,39 +481,51 @@ footer {
 }
 
 .social-links a{
-    color: pink;
+    color: #d6809c;
     font-size: 2.2em;
 }
 
 #copyrights {
     margin: 2em;
     font-size: 0.8em;
-    color: pink; 
+    color: #d6809c; 
 }
 
 
 
 
 /* sign-in / sign-up page */
+#sign-up-section{
+    padding: 4em 0;
+    width: 100%;
+    background: url(../img/6609.webp) center center fixed no-repeat;
+    background-size: cover;
+}
+
 #sign-up-header {
     background-position: center center;
     height: 100%;
 }
 
 #sign-in-form {
-    background-color: red;
+    background-color: rgba(255, 255, 255, 0.911);
     width: 350px;
-    margin: 100px auto
+    margin: 100px auto;
+    
 }
 
 .sign-up-container {
     margin: auto;
     max-width: 900px;
-    background-color: blue;
-
+    /* background-color: blue; */
+    min-height: 400px;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+}
+
+#offer{
+    padding: 2em;
 }
 
 legend {
@@ -520,6 +533,8 @@ legend {
     font-size: 1.5em;
     margin: 1em auto;
     display: block;
+    float: left;
+
 }
 fieldset{
     margin: 10px;
@@ -528,19 +543,24 @@ fieldset{
 .sign-up-info{ 
     width: 350px;
     text-align: center;
+    padding: 0;
 }
 
 #sign-up-form {
-    background: red;
     width: 350px;
 }
 
 
 .payment-details {
-    background: yellow;
+    /* background: yellow; */
     flex-direction: column;
     max-width: 400px;
     width: 290px;
+
+}
+
+#sign-up-submit{
+    margin: auto;
 }
 
 @media only screen and (min-width: 580px) {
@@ -696,8 +716,6 @@ header {
   #benefits-container {
     gap: 50px;
   }
-
-
 }
 
 @media only screen and (min-width: 1015px) {
