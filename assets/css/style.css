@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 /* general styling  */
 
 * {
@@ -52,6 +54,16 @@ label {
   padding: 2em;
   width: 22em;
      margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, legend {
+  font-family: 'Fredoka One', cursive;
+  color: #927397;
+}
+
+.card h2, h3, h4, h5, h6 {
+  font-family: helvetica;
+  color: white;
 }
 
 .text-box > h1,
@@ -120,7 +132,7 @@ details[open] > *:not(summary) {
 details summary { 
     cursor: pointer;
     text-align: center;
-    background-color: lightblue;
+    background-color:#d6809c;
     padding: .7em .3em;
     border-radius: 30px;
     width: 150px;
@@ -131,7 +143,7 @@ details summary {
   }
 
   details summary:hover{
-    background-color: blue;
+    background-color: #927397;
   }
   
   details summary > * {
@@ -157,6 +169,7 @@ header {
   grid-area: header;
   height: 640px;
   background: url(../img/AdobeStock_330497250_mirrored_rezised.webp) bottom center;
+  box-shadow: inset rgba(48, 14, 58, 0.486) 0 1000px;
   background-size: cover;
   background-position: fixed;
 }
@@ -658,6 +671,7 @@ fieldset{
 
 .big-screen {
     display: block;
+    text-align: center;
 }
 
 #big-welcome-heading{
@@ -665,7 +679,7 @@ fieldset{
     max-width: 40%;
     flex-shrink: 3;
     margin-left:3%;
-    background: rgba(255, 255, 255, 0.753);
+    color: #faf5ef;
 }
 
 
