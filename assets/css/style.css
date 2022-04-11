@@ -82,10 +82,61 @@ a {
   border-radius: 20px;
 }
 
+fieldset {
+    border: 1px solid white !important;
+    padding: 2em;
+}
+
 input[type="submit"].btn {
   background-color: pink;
   border: 0;
 }
+
+
+
+/* # The Sliding Summary: code partly from a comment in this post but heavily modified https://css-tricks.com/how-to-animate-the-details-element/  */
+details { overflow: hidden; }
+details summary {
+  position: relative;
+  z-index: 10;
+}
+
+
+details > *:not(summary) {
+  animation: details-show 700ms ease-in-out;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  color: transparent;
+  overflow: hidden;
+}
+details[open] > *:not(summary) { 
+    color: inherit; 
+    justify-self: center;
+}
+
+
+details summary { 
+    cursor: pointer;
+    text-align: center;
+    background-color: lightblue;
+    padding: .7em .3em;
+    border-radius: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+  }
+
+  details summary:hover{
+    background-color: blue;
+  }
+  
+  details summary > * {
+    display: inline-flex;
+    justify-content: space-around;
+  }
 
 /* css grid */
 .main-grid {
@@ -454,10 +505,34 @@ footer {
     margin: 100px auto
 }
 
+.sign-up-container {
+    margin: auto;
+    max-width: 900px;
+    background-color: blue;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em auto;
+    display: block;
+}
+fieldset{
+    margin: 10px;
+}
+
+.sign-up-info{ 
+    width: 350px;
+    text-align: center;
+}
+
 #sign-up-form {
     background: red;
     width: 350px;
-    margin: auto;
 }
 
 
@@ -465,7 +540,7 @@ footer {
     background: yellow;
     flex-direction: column;
     max-width: 400px;
-    width: 350px;
+    width: 290px;
 }
 
 @media only screen and (min-width: 580px) {
@@ -581,6 +656,15 @@ footer {
   #about-text {
     width: 40%;
   }
+
+/* benefits section */
+
+.card {
+    width: 12em;
+    height: 19em;
+}
+
+
 /* join section */
   #newsletter-info {
     width: 100%;
@@ -590,14 +674,14 @@ footer {
     flex-direction: row;
   }
 
-.sign-in-up{
+
+
+  /* sign-up / sign-in section */
+  .sign-in-up{
     flex-direction: column;
+    margin: auto;
 }
 
-  .card {
-      width: 12em;
-      height: 19em;
-  }
 
 }
 
@@ -646,5 +730,11 @@ header {
 }
 
 
-/* building the hambuger menu */
-
+/* animation for payment drop down */
+@keyframes details-show {
+    from {
+      margin-bottom: -80%;
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
