@@ -380,8 +380,11 @@ header {
 .letter-form {
   flex-direction: column;
   overflow: hidden;
-  
 }
+
+#letter-form {
+    flex-direction: column;
+  }
 
 
 .form-field {
@@ -435,10 +438,34 @@ footer {
     font-size: 0.8em;
     color: pink; 
 }
-/* sign-up page */
+
+
+
+
+/* sign-in / sign-up page */
 #sign-up-header {
-    height: 200px;
     background-position: center center;
+    height: 100%;
+}
+
+#sign-in-form {
+    background-color: red;
+    width: 350px;
+    margin: 100px auto
+}
+
+#sign-up-form {
+    background: red;
+    width: 350px;
+    margin: auto;
+}
+
+
+.payment-details {
+    background: yellow;
+    flex-direction: column;
+    max-width: 400px;
+    width: 350px;
 }
 
 @media only screen and (min-width: 580px) {
@@ -559,13 +586,13 @@ footer {
     width: 100%;
   }
 
-  #letter-form {
-    flex-direction: column;
-  }
-
   .letter-form {
     flex-direction: row;
   }
+
+.sign-in-up{
+    flex-direction: column;
+}
 
   .card {
       width: 12em;
