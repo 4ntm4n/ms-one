@@ -13,7 +13,7 @@
 <body>
     <div class="main-grid">
         <header id="sign-up-header">
-            
+
             <nav class="nav-container">
                 <input class="checkbox" type="checkbox" name="" id="" />
                 <span class="navbar"></span>
@@ -21,7 +21,7 @@
                     <span class="line line1"></span>
                     <span class="line line2"></span>
                     <span class="line line3"></span>
-                </div> 
+                </div>
 
                 <ul id="main-nav" class="container flex-box menu-items">
                     <li><a href="../../index.html">Home</a></li>
@@ -31,45 +31,46 @@
                     <li><a href="#">Sign-up</a></li>
                 </ul>
             </nav>
-            <form id="sign-in-form" action="#" type="POST" class="letter-form sign-in-up flex-box">
-                <fieldset class="flex-box letter-form sign-in-up">
-                    <legend>Members Log in</legend>
 
-                    <label class="hidden" for="email">Email Adress</label>
-                    <input class="form-field" name="email" placeholder="email address" id="email" type="email" required>
+            <div id="sign-in" class="members-container">
+                <form id="sign-in-form" action="#" type="POST" class="letter-form sign-in-up flex-box">
+                    <fieldset class="flex-box letter-form sign-in-up">
+                        <legend>Members Log in</legend>
 
-                    <label class="hidden"  for="password">Password</label>
-                    <input class="form-field" name="password" placeholder="Password" id="password" type="password" required>
+                        <label class="hidden" for="email">Email Adress</label>
+                        <input class="form-field" name="email" placeholder="email address" id="email" type="email"
+                            required>
 
-                </fieldset>
-                <input id="letter-submit" class="btn" value="Log in" type="submit">
-            </form>
+                        <label class="hidden" for="password">Password</label>
+                        <input class="form-field" name="password" placeholder="Password" id="password" type="password"
+                            required>
 
+                    </fieldset>
+                    <input id="letter-submit" class="btn" value="Log in" type="submit">
+                </form>
+            </div>
         </header>
         <section id="sign-up-section">
-            
-            <div class="sign-up-container">
+
+            <div class="members-container">
                 <div class="sign-up-info text-box">
-                    <div id="offer" >
+                    <div id="offer">
                         <h2 id="monthly-price">€6 / Month</h2>
-                        <p>For a monthy payment of €6 you will get full access to my live yoga sessions as well as my more advanced pre-recorded sessions, just like the example below.</p>
+                        <p>For a monthy payment of €6 you will get full access to my live yoga sessions as well as my
+                            more advanced pre-recorded sessions, just like the example below.</p>
                     </div>
-                    <iframe     
-                            width="340"
-                            height="200" 
-                            src="https://www.youtube.com/embed/CiaD3jP0YhA" 
-                            title="YouTube video player" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen> </iframe>
-            </div>
+                    <iframe width="340" height="200" src="https://www.youtube.com/embed/CiaD3jP0YhA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen> </iframe>
+                </div>
                 <form id="sign-up-form" action="#" type="POST" class="letter-form sign-in-up flex-box text-box">
                     <fieldset class="flex-box letter-form sign-in-up">
                         <legend class=>Create an account</legend>
                         <label class="hidden" for="email">Email Adress</label>
                         <input class="form-field" placeholder="email address" id="email" type="email" required>
 
-                        <label class="hidden"  for="password">Password</label>
+                        <label class="hidden" for="password">Password</label>
                         <input class="form-field" placeholder="Password" id="password" type="password" required>
 
                         <label class="hidden" for="password">Confirm Password</label>
@@ -78,7 +79,8 @@
 
                     <details>
                         <summary>
-                            <i class="fa-solid fa-credit-card"></i>  <h4> Payment Details</h4>
+                            <i class="fa-solid fa-credit-card"></i>
+                            <h4> Payment Details</h4>
                         </summary>
 
                         <fieldset class="flex-box letter-form sign-in-up payment-details">
@@ -90,18 +92,22 @@
                                 <li class="paycard"><i class="fa-brands fa-cc-amex"></i></li>
                             </ul>
                             <label for="cname">Name on Card</label>
-                            <input class="form-field" name="cardname" placeholder="John Doe" id="cname" type="text" required>
+                            <input class="form-field" name="cardname" placeholder="John Doe" id="cname" type="text"
+                                required>
 
                             <label for="cnumb">Credit card number</label>
-                            <input class="form-field" name="cardnumber" placeholder="1111-2222-3333-4444" id="cnumb" type="text" required>
+                            <input class="form-field" name="cardnumber" placeholder="1111-2222-3333-4444" id="cnumb"
+                                type="text" required>
 
-                            <label  for="expmonth">Exp Month</label>
-                            <input class="form-field" name="expmonth" placeholder="April" id="expmonth" type="text" required>
+                            <label for="expmonth">Exp Month</label>
+                            <input class="form-field" name="expmonth" placeholder="April" id="expmonth" type="text"
+                                required>
 
-                            <label  for="expyear">Exp Year</label>
-                            <input class="form-field" name="expyear" placeholder="2022" id="expyear" type="text" required>
+                            <label for="expyear">Exp Year</label>
+                            <input class="form-field" name="expyear" placeholder="2022" id="expyear" type="text"
+                                required>
 
-                            <label  for="cvv">CVV</label>
+                            <label for="cvv">CVV</label>
                             <input class="form-field" name="cvv" placeholder="333" id="cvv" type="text" required>
                         </fieldset>
 
@@ -109,13 +115,16 @@
                         <fieldset class="flex-box letter-form sign-in-up payment-details">
                             <legend>Billing</legend>
                             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                            <input class="form-field" type="text" id="fname" name="firstname" placeholder="John M. Doe" required>
+                            <input class="form-field" type="text" id="fname" name="firstname" placeholder="John M. Doe"
+                                required>
 
                             <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                            <input class="form-field" type="text" id="email" name="email" placeholder="john@example.com" required>
+                            <input class="form-field" type="text" id="email" name="email" placeholder="john@example.com"
+                                required>
 
                             <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                            <input class="form-field" type="text" id="adr" name="address" placeholder="542 W. 15th Street" required>
+                            <input class="form-field" type="text" id="adr" name="address"
+                                placeholder="542 W. 15th Street" required>
 
                             <label for="city"><i class="fa fa-institution"></i> City</label>
                             <input class="form-field" type="text" id="city" name="city" placeholder="New York" required>
@@ -126,12 +135,12 @@
                             <label for="zip">Zip</label>
                             <input class="form-field" type="text" id="zip" name="zip" placeholder="10001" required>
                         </fieldset>
-                    
+
                         <input id="sign-up-submit" class="btn" value="Let's go!" type="submit" required>
-                     </details>
-                    
+                    </details>
+
                 </form>
-            </div>            
+            </div>
         </section>
         <footer>
             <div id="footer-container" class="container flex-box">
@@ -144,9 +153,9 @@
                 <h6 id="copyrights">&copy Flexgrid Yoga 2022</h6>
             </div>
         </footer>
-    
-    <!-- script to import icon library from fontawesome (https://fontawesome.com/) -->
-    <script src="https://kit.fontawesome.com/2759c1d447.js" crossorigin="anonymous"></script>
+
+        <!-- script to import icon library from fontawesome (https://fontawesome.com/) -->
+        <script src="https://kit.fontawesome.com/2759c1d447.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

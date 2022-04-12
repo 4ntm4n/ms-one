@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:wght@300&display=swap');/* general styling  */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:wght@300&display=swap"); /* general styling  */
 
 * {
   margin: 0;
@@ -19,8 +19,9 @@ legend {
   color: #927397;
 }
 
-p, a {
-  font-family: 'Roboto Condensed', helvetica,  sans-serif;
+p,
+a {
+  font-family: "Roboto Condensed", helvetica, sans-serif;
   color: #3a4b4b;
 }
 
@@ -76,7 +77,6 @@ label {
   width: 22em;
   margin: auto;
 }
-
 
 .card h2,
 h3,
@@ -520,6 +520,13 @@ footer {
 }
 
 /* sign-in / sign-up page */
+
+#sign-in {
+  padding-top: 2em;
+  height: 500px;
+  align-content: center;
+}
+
 #sign-up-section {
   padding: 4em 0;
   width: 100%;
@@ -534,15 +541,13 @@ footer {
 
 #sign-in-form {
   background-color: rgba(255, 255, 255, 0.849);
-  width: 350px;
-  margin: 100px auto;
+  height: 20em;
 }
 
-.sign-up-container {
-  margin: auto;
-  max-width: 900px;
-  /* background-color: blue; */
+.members-container {
+  max-width: 1000px;
   min-height: 400px;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
@@ -693,7 +698,7 @@ fieldset {
     width: 40%;
   }
 
-  #selfie{
+  #selfie {
     order: 2;
   }
 
@@ -714,10 +719,20 @@ fieldset {
   }
 
   /* sign-up / sign-in section */
+
   .sign-in-up {
     flex-direction: column;
-    margin: auto;
   }
+
+
+  #sign-in {
+    justify-content: flex-end;
+  }
+
+  #sign-in-form {
+    margin-right: 10%;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
