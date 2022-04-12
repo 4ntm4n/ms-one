@@ -14,16 +14,16 @@
     <div class="main-grid">
         <header id="sign-up-header">
 
-            <nav class="nav-container">
-                <label class="hidden" for="toggle-menu"></label>
-                <input class="checkbox" type="checkbox" name="menu-toggler" id="toggle-menu" />
+            <nav class="nav-container overflow">
+                <label class="hidden" for="togmenu">toggle menu</label>
+                <input class="checkbox" type="checkbox" name="toggle-menu" id="togmenu" />
+
                 <span class="navbar"></span>
                 <div class="hamburger-lines">
                     <span class="line line1"></span>
                     <span class="line line2"></span>
                     <span class="line line3"></span>
                 </div>
-
                 <ul id="main-nav" class="container flex-box menu-items">
                     <li><a href="../../index.html" aria-label="go to home top section">Home</a></li>
                     <li><a href="../../index.html#about" aria-label="go to home about section">About</a></li>
@@ -39,12 +39,12 @@
                     <fieldset class="flex-box letter-form sign-in-up">
                         <legend>Members Log in</legend>
 
-                        <label class="hidden" for="email">Email Adress</label>
-                        <input class="form-field" name="email" placeholder="email address" id="email" type="email"
-                            required>
+                        <label class="hidden" for="loginemail">Email Adress</label>
+                        <input class="form-field" placeholder="email address" id="loginemail" name="loginemail"
+                            type="email" required>
 
-                        <label class="hidden" for="password">Password</label>
-                        <input class="form-field" name="password" placeholder="Password" id="password" type="password"
+                        <label class="hidden" for="loginpass">Password</label>
+                        <input class="form-field" placeholder="Password" id="loginpass" name="loginpass" type="password"
                             required>
 
                     </fieldset>
@@ -61,37 +61,37 @@
                         <p>For a monthy payment of €6 you will get full access to my live yoga sessions as well as my
                             more advanced pre-recorded sessions, just like the example below.</p>
                     </div>
-                    <iframe width="340" height="200" src="https://www.youtube.com/embed/CiaD3jP0YhA"
+                    <!--  <iframe width="340" height="200" src="https://www.youtube.com/embed/CiaD3jP0YhA"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen> </iframe>
+                        allowfullscreen> </iframe> -->
                 </div>
                 <form id="sign-up-form" action="#" type="POST" class="letter-form sign-in-up flex-box text-box">
                     <fieldset class="flex-box letter-form sign-in-up">
                         <legend class=>Create an account</legend>
-                        <label class="hidden" for="email">Email Adress</label>
-                        <input class="form-field" placeholder="Your email address" id="email" name="email" type="email"
-                            required>
+                        <label class="hidden" for="newemail">Email Adress</label>
+                        <input class="form-field" placeholder="Your email address" id="newemail" name="newemail"
+                            type="email" required>
 
-                        <label class="hidden" for="password">Password</label>
-                        <input class="form-field" placeholder="Choose a password" id="password" name="password"
+                        <label class="hidden" for="newpass">Password</label>
+                        <input class="form-field" placeholder="Choose a password" id="newpass" name="newpass"
                             type="password" required>
 
-                        <label class="hidden" for="password">Confirm Password</label>
-                        <input class="form-field" placeholder="Confirm password" id="password" name="password"
+                        <label class="hidden" for="confpass">Confirm Password</label>
+                        <input class="form-field" placeholder="Confirm password" id="confpass" name="confpass"
                             type="password" required>
                     </fieldset>
 
                     <details>
                         <summary class="btn">
-                            <i class="fa-solid fa-credit-card"></i>
-                            <h4> Payment Details</h4>
+                            Payment Details
                         </summary>
 
                         <fieldset class="flex-box letter-form sign-in-up payment-details">
                             <legend class=>card info</legend>
                             <h5 class="pay-form-heading">We accept the following cards:</h5>
-                            <ul class="accepted-cards flex-box">
+                            <ul class="accepted-cards flex-box"
+                                aria-label="we accept master card, visa and american express">
                                 <li class="paycard"><i class="fa-brands valid-card fa-cc-mastercard"></i></li>
                                 <li class="paycard"><i class="fa-brands valid-card fa-cc-visa"></i></li>
                                 <li class="paycard"><i class="fa-brands valid-card fa-cc-amex"></i></li>

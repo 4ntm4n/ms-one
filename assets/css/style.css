@@ -14,24 +14,24 @@ h3,
 h4,
 h5,
 h6,
-legend,
-label {
+legend {
   font-family: "Fredoka One", cursive;
   color: #927397;
 }
 
 p,
-a {
+a,
+label {
   font-family: "Roboto Condensed", helvetica, sans-serif;
-  color: #3a4b4b;
+  color: #242c2c;
 }
 
 p a {
-  color: #d6809c;
+  color: #fa0356;
 }
 
 p a:visited {
-  color: #927397;
+  color: #572f5e;
 }
 
 ul {
@@ -106,24 +106,26 @@ a {
 }
 
 .hidden {
-  visibility: hidden;
   position: absolute;
+  top: -50px;
+  left: -500px;
 }
 
 .btn {
   display: block;
-  background-color: #d6809c;
+  background-color: #412a44 !important;
   color: white;
   padding: 0.3em 1em;
   font-size: 1.4em;
   border-radius: 20px;
-  transition: all ease .4s;
+  transition: all ease 0.4s;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn:hover {
   box-shadow: #c9c9c9 2px 10px 10px 2px;
-  background-color: #92b9a4 !important;
-  border: 0 !important;
+  background-color: #ce98aa !important;
+  color: white;
 }
 
 .btn:active {
@@ -135,38 +137,28 @@ input[type="submit"].btn {
 }
 
 details summary.btn {
-  position: relative;
-  z-index: 10;
-  cursor: pointer;
-  text-align: center;
-  background-color: #d6809c;
-  padding: 0.7em 0.3em;
-  border-radius: 30px;
   width: 150px;
-  display: flex;
-  justify-content: space-around;
+  border-radius: 30px;
   margin: auto;
-  align-items: center;
-  font-size:  15px;
-  top: -5px;
+  font-size: 1.2em !important;
+  padding: 0.8em;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
 }
 
 .pay-form-heading {
-  color: #d6809c;
+  color: #521a5a;
 }
 
-.paycard{
+.paycard {
   margin: 0.7em 0.5em 2em;
 }
 
-.valid-card{
+.valid-card {
   font-size: 1.8em;
-  color: #d6809c;
+  color: #521a5a;
 }
-
-.fa-cc-mastercard {}
-.fa-cc-visa {}
-.fa-cc-amex {}
 
 /* css grid */
 .main-grid {
@@ -302,19 +294,19 @@ header {
 
 #main-nav a {
   display: inline-block;
-  background-color: #927397;
+  background-color: #412a44;
   color: white !important;
   border-radius: 25px;
   width: 100px;
   padding: 10px;
   margin: 2px;
   white-space: nowrap;
-  transition: box-shadow ease-in-out 0.5s, color ease-in-out 0.2s;
-  color: black;
+  transition: box-shadow ease-in-out 0.5s, background-color ease-in-out 0.4s;
 }
 
 #main-nav a:hover {
   box-shadow: rgba(121, 121, 121, 0.7) 1px 4px 8px;
+  background-color: #ce98aa;
 }
 
 #main-nav a:active {
@@ -511,14 +503,14 @@ footer {
 }
 
 .social-links a {
-  color: #d6809c;
+  color: #24000c;
   font-size: 2.2em;
 }
 
 #copyrights {
   margin: 2em;
   font-size: 0.8em;
-  color: #d6809c;
+  color: #24000c;
 }
 
 /* sign-in / sign-up page */
@@ -598,6 +590,7 @@ fieldset {
 
   #main-nav a {
     width: 70px;
+    font-weight: bold;
   }
 
   .nav-container {
@@ -726,7 +719,6 @@ fieldset {
     flex-direction: column;
   }
 
-
   #sign-in {
     justify-content: flex-end;
   }
@@ -734,7 +726,6 @@ fieldset {
   #sign-in-form {
     margin-right: 10%;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
