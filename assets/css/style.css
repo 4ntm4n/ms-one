@@ -395,12 +395,17 @@ header {
 }
 
 .card-text-bg {
-  background: #92b9a4;
+  background: rgb(192, 216, 197);
   width: 100%;
   height: 40%;
   border-radius: 10% 10% 0 0;
-  color: rgb(255, 255, 255);
-  font-size: 1.4em;
+}
+
+.card-text{
+  font-family:  helvetica, arial;
+  font-size: 1.5rem;
+  color: #1d4648;
+  text-transform:capitalize;
 }
 
 /* setting background-images for #benefits .card */
@@ -510,6 +515,7 @@ footer {
 #copyrights {
   margin: 2em;
   font-size: 0.8em;
+  font-weight: bold;
   color: #24000c;
 }
 
