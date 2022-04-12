@@ -133,29 +133,10 @@ input[type="submit"].btn {
   border: 0;
 }
 
-/* # The Sliding Summary: code from comment in this thread. https://css-tricks.com/how-to-animate-the-details-element/  */
-details {
-  overflow: hidden;
-}
-details summary {
+
+details summary.btn {
   position: relative;
   z-index: 10;
-}
-
-details > *:not(summary) {
-  animation: details-show 700ms ease-in-out;
-  position: relative;
-  z-index: 1;
-  transition: all 0.3s ease-in-out;
-  color: transparent;
-  overflow: hidden;
-}
-details[open] > *:not(summary) {
-  color: inherit;
-  justify-self: center;
-}
-
-details summary {
   cursor: pointer;
   text-align: center;
   background-color: #d6809c;
@@ -166,6 +147,8 @@ details summary {
   justify-content: space-around;
   margin: auto;
   align-items: center;
+  font-size:  15px;
+  top: -5px;
 }
 
 details summary:hover {
