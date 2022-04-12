@@ -14,7 +14,8 @@ h3,
 h4,
 h5,
 h6,
-legend {
+legend,
+label {
   font-family: "Fredoka One", cursive;
   color: #927397;
 }
@@ -47,6 +48,11 @@ a {
 
 label {
   display: block;
+}
+
+fieldset {
+  padding: 2em;
+  border: none;
 }
 
 /* reusable classes */
@@ -120,19 +126,13 @@ a {
   border: 0 !important;
 }
 
-btn:active {
-
-}
-
-fieldset {
-  padding: 2em;
+.btn:active {
+  box-shadow: none;
 }
 
 input[type="submit"].btn {
-
   border: 0;
 }
-
 
 details summary.btn {
   position: relative;
@@ -151,14 +151,22 @@ details summary.btn {
   top: -5px;
 }
 
-details summary:hover {
-  background-color: #927397;
+.pay-form-heading {
+  color: #d6809c;
 }
 
-details summary > * {
-  display: inline-flex;
-  justify-content: space-around;
+.paycard{
+  margin: 0.7em 0.5em 2em;
 }
+
+.valid-card{
+  font-size: 1.8em;
+  color: #d6809c;
+}
+
+.fa-cc-mastercard {}
+.fa-cc-visa {}
+.fa-cc-amex {}
 
 /* css grid */
 .main-grid {
