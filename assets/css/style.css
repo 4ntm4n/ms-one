@@ -85,7 +85,7 @@ fieldset {
   align-items: center;
   text-align: center;
   padding: 2em;
-  width: 22em;
+  width: 19em;
   margin: auto;
 }
 
@@ -382,7 +382,7 @@ header {
 
 .card {
   margin: 1em;
-  width: 10em;
+  width: 9em;
   height: 15em;
   background-color: whitesmoke;
   display: flex;
@@ -458,6 +458,7 @@ header {
 
 #newsletter-info {
   padding-bottom: 0;
+  width: 100%;
 }
 
 .letter-form > fieldset {
