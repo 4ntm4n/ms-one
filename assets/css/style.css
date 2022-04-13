@@ -323,7 +323,7 @@ header {
 }
 
 #hero-info {
-  align-self: start;
+  height: 100%;
 }
 
 #greetings {
