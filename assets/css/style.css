@@ -172,7 +172,7 @@ details summary.btn {
     "footer";
 }
 
-/* header section */
+/* header section -------------------------------- */
 
 header {
   grid-area: header;
@@ -316,19 +316,21 @@ header {
 /* header #hero-info */
 
 .big-screen {
-  /* this will set to dispay:block on larger screens */
+  /* this removes the sites main heading from mobile screens. 
+  Will set to dispay:block on larger screens, 
+  while header inside text-box disapears */
   display: none;
 }
 
 #hero-info {
-  height: 90%;
+  align-self: start;
 }
 
 #greetings {
   width: 20em;
 }
 
-/* about section */
+/* about section -------------------------------- */
 #about {
   grid-area: about;
   background-color: #dac9dd;
@@ -359,11 +361,16 @@ header {
   box-shadow: rgba(71, 71, 71, 0.158) 1px 10px 20px 2px;
 }
 
-/* benefit section */
+/* benefit section -------------------------------- */
 #benefits {
   grid-area: benefits;
   background-color: #faf5ef;
   border-bottom: 3px solid #92b9a4;
+  flex-direction: column;
+}
+
+#benefits-heading{
+  margin-top: 2em;
 }
 
 #benefits-container {
@@ -403,7 +410,7 @@ header {
 
 .card-text{
   font-family:  helvetica, arial;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #1d4648;
   text-transform:capitalize;
 }
@@ -434,7 +441,7 @@ header {
   background-size: cover;
 }
 
-/* join section */
+/* join section -------------------------------- */
 #join {
   grid-area: join;
   background: url(../img/4258076.webp) center center no-repeat;
@@ -487,7 +494,7 @@ header {
   margin: 0.4em 0 1.8em 0 !important;
 }
 
-/* footer section */
+/* footer section -------------------------------- */
 footer {
   grid-area: footer;
   background-color: #927397;
@@ -519,7 +526,7 @@ footer {
   color: #24000c;
 }
 
-/* sign-in / sign-up page */
+/* sign-in / sign-up page -------------------------------- */
 
 #sign-in {
   padding-top: 2em;
@@ -579,7 +586,6 @@ fieldset {
 }
 
 .payment-details {
-  /* background: yellow; */
   flex-direction: column;
   max-width: 400px;
   width: 290px;
@@ -590,7 +596,7 @@ fieldset {
 }
 
 @media only screen and (min-width: 580px) {
-  /* header section */
+  /* header section -------------------------------- */
 
   /* nav */
 
@@ -641,7 +647,7 @@ fieldset {
     margin-right: 10%;
   }
 
-  /* join section */
+  /* join section -------------------------------- */
   #newsletter-info {
     width: 100%;
     padding: 2em;
@@ -653,7 +659,7 @@ fieldset {
 }
 
 @media only screen and (min-width: 740px) {
-  /* header section */
+  /* header section -------------------------------- */
 
   .nav-container {
     justify-content: flex-end;
@@ -691,7 +697,7 @@ fieldset {
     color: #faf5ef;
   }
 
-  /* about section */
+  /* about section -------------------------------- */
   #about-box {
     min-height: 800px;
   }
@@ -703,14 +709,14 @@ fieldset {
     order: 2;
   }
 
-  /* benefits section */
+  /* benefits section -------------------------------- */
 
   .card {
     width: 12em;
     height: 19em;
   }
 
-  /* join section */
+  /* join section -------------------------------- */
   #newsletter-info {
     width: 100%;
   }
@@ -719,7 +725,7 @@ fieldset {
     flex-direction: row;
   }
 
-  /* sign-up / sign-in section */
+  /* sign-up / sign-in section -------------------------------- */
 
   .sign-in-up {
     flex-direction: column;
@@ -735,20 +741,20 @@ fieldset {
 }
 
 @media only screen and (min-width: 768px) {
-  /* header section */
+  /* header section -------------------------------- */
   header {
     height: 700px;
     transition: all ease 0.5s;
   }
 
-  /* benefits  section*/
+  /* benefits  section -------------------------------- */
   #benefits-container {
     gap: 50px;
   }
 }
 
 @media only screen and (min-width: 1015px) {
-  /* benefits section */
+  /* benefits section -------------------------------- */
 
   .card {
     width: 13em;
@@ -758,7 +764,7 @@ fieldset {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* heading section */
+  /* heading section -------------------------------- */
   #big-welcome-heading {
     font-size: 8em;
     display: block;
@@ -771,14 +777,5 @@ fieldset {
   .card {
     width: 15em;
     height: 24em;
-  }
-}
-
-/* animation for payment drop down */
-@keyframes details-show {
-  from {
-    margin-bottom: -80%;
-    opacity: 0;
-    transform: translateY(-100%);
   }
 }

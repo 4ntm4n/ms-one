@@ -105,3 +105,6 @@ https://gomakethings.com/smooth-scrolling-links-with-only-css/
 hamburger menu:
 found this burger menu method, imported it and modified it to suit this website.
 https://codepen.io/alvarotrigo/pen/wvrzPWL
+
+benfits of yoga:
+https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga
