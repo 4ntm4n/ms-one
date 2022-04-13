@@ -34,6 +34,10 @@ p a:visited {
   color: #572f5e;
 }
 
+b {
+  color: #572f5e;
+}
+
 ul {
   padding: 0;
 }
@@ -370,7 +374,7 @@ header {
 }
 
 #benefits-heading{
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 #benefits-container {
