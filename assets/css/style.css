@@ -61,6 +61,11 @@ fieldset {
 
 /* reusable classes */
 
+.hidden {
+  position: absolute;
+  top: -600px;
+  left: -50;
+}
 
 .overflow {
   overflow: hidden;
@@ -85,7 +90,7 @@ fieldset {
   align-items: center;
   text-align: center;
   padding: 2em;
-  width: 19em;
+  width: 15em;
   margin: auto;
 }
 
@@ -219,7 +224,7 @@ header {
   left: 37px;
   top: 1px;
   z-index: 6;
-  opacity: 50%;
+  opacity: 0;
   cursor: pointer;
 }
 
@@ -338,6 +343,10 @@ header {
   border-bottom: 3px solid #927397;
 }
 
+#about-text{
+  min-width: 18em;
+}
+
 #about-box {
   flex-flow: row wrap;
   align-items: center;
@@ -418,27 +427,27 @@ header {
 
 /* setting background-images for #benefits .card */
 #benefit-one {
-  background: url(../img/cards/yogapose1.png) center;
+  background: url(../img/cards/yogapose1.webp) center;
   background-size: cover;
 }
 #benefit-two {
-  background: url(../img/cards/yogapose2.png) center;
+  background: url(../img/cards/yogapose2.webp) center;
   background-size: cover;
 }
 #benefit-three {
-  background: url(../img/cards/yogapose3.png) center;
+  background: url(../img/cards/yogapose3.webp) center;
   background-size: cover;
 }
 #benefit-four {
-  background: url(../img/cards/yogapose4.png) center;
+  background: url(../img/cards/yogapose4.webp) center;
   background-size: cover;
 }
 #benefit-five {
-  background: url(../img/cards/yogapose5.png) center;
+  background: url(../img/cards/yogapose5.webp) center;
   background-size: cover;
 }
 #benefit-six {
-  background: url(../img/cards/yogapose6.png) center;
+  background: url(../img/cards/yogapose6.webp) center;
   background-size: cover;
 }
 
