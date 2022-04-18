@@ -401,8 +401,7 @@ header {
   border-radius: 0.2em;
   padding: 0;
   box-shadow: rgba(70, 70, 70, 0.7) 1px 4px 8px;
-  transition: box-shadow ease-in-out 0.5s, transform ease-in-out 0.5s,
-    scale() ease 0s;
+  transition: box-shadow ease-in-out 0.5s, transform ease-in-out 0.5s;
 }
 
 .card:hover {
