@@ -76,7 +76,7 @@ fieldset {
 .hidden {
   position: absolute;
   top: -600px;
-  left: -50;
+  left: -50px;
 }
 
 .overflow {
@@ -187,7 +187,6 @@ header {
   background: url(../img/AdobeStock_330497250_mirrored_rezised.webp) bottom center;
   box-shadow: inset rgba(48, 14, 58, 0.486) 0 1000px;
   background-size: cover;
-  background-position: fixed;
 }
 
 /* header > nav */
@@ -496,7 +495,7 @@ header {
   padding: 1em;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0;
+  box-shadow: none;
   outline: none;
 }
 
