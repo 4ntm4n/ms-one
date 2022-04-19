@@ -286,11 +286,32 @@ Here follows some picure of the website on mobile and tablet to show the website
 >>
 >> you close the menu by pressing the X.
 
+### __Video Elements__
+
+>![Video element from youtube](assets/img/testing/../readme/testing/mobile-members-signup1.png)
+>> Here you can see the video element that is dispalyed in the sign-up section of the members page.
+>> This video is implemented using an iframe element and embedded code from youtube. 
+>>
+>> This video works the same way it would on youtube.com, meaning the video will only play if the user intends it to. The user also has full control over actions such as play, pause, full screen view, video quality and sound.
+>>
+>> Since the video is embeded using iframes, this is like watching youtube from within this website, meaning the creator of what ever video is embedded will get credited by youtube in terms of view counts etc. It can there for also work as a link to a site owners potential youtube page.
+>>> __important note:__
+>>>
+>>>This video is for mockup reasons only to display what an embedded video would look like on this page and should be replaced by the site owners own video uploaded to youtube. All credit goes to the creator and creators account:
+>>>
+>>>_Name of account:_ 
+>>>
+>>> [__Boho Beautiful Yoga__](https://www.youtube.com/channel/UCWN2FPlvg9r-LnUyepH9IaQ)
+>>>
+>>> _Link to video used:_
+>>>
+>>> https://www.youtube.com/watch?v=CiaD3jP0YhA
+
 ### __form field validation__
 
 >![form field being validated](assets/img/testing/../readme/testing/form-field-validation.png)
 >> form fields are validated by html 5.
->> All form fields are also type specific if applicable, meaning if a forn field expects an email adress, it will not be accepted if it is missing a correct email format. 
+>> All form fields are also type specific if applicable, meaning if a forn field expects an email adress, its input will not be accepted as valid if it is missing a correct email formating. 
 >>
 >> in this example you can see an email form being validated because the form field is set to "required".
 
@@ -314,35 +335,89 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 
 >__What?__
 >> background of fixed menu bar disapears.
+>>
+>>![navigation bug](assets/img/readme/testing/bugs/bug1.png)
 >
 >__When?__
 >>When user is on a desktop browser and resizes the viewport so small that the hamburger menu appears. If the hamburger menu is then clicked to be opened and the viewport is enlarged so that the "normal" navigation menu appears again.
 >
 >__Why?__
->> This is due to the fact that the menu is made with pure CSS and uses a transparent checkbox on top of the hamburger icon. When the checkbox is checked, the menu is toggled, and the navigation bar disapears. If it is left checked, and the viewport enlarged, the menu will disapear but the checkbox will remain unchecked.
+>> This is due to the fact that the menu is made with pure CSS and uses a transparent checkbox on top of the hamburger icon. When the checkbox is checked, the menu is toggled, and the navigation bar disapears. If it is left checked, and the viewport enlarged, the menu will disapear but the checkbox will remain checked. This means that all styling that is applied when the checkbox is checked also will remain until you physically uncheck the checkbox.
 >
 >__Solution__
 >> 1. You can redesign the menu so that it covers the entire screen, and remove the animation that removes the nav-bar. (This creates some other UX issues).
 >>
->> 2. You could re-create the hamburger menu using a method that involves javascript. (N/A for this project.)
+>> 2. You could re-create the hamburger menu using a method that involves javascript. (This is arguably the best solution but N/A for this project.)
 
 ___
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+>You can visit the live website form any device by following this link:
+>
+>https://4ntm4n.github.io/ms-one/index.html
 
 
 ## Credits 
+In this section I want to give crdits to resourses I have used when creating this website.
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+### __Technical__
+>Here I want to give credit to the resourses I have used that gave me enough knowledge in html and css in order to build this website.
 
+> #### __Code Institute__
+> Since I am a full stack developer student at code institute most of my fundamental programming skills and essential knowledge in html and css comes from here: 
+>>https://codeinstitute.net
+
+> #### __Codecademy__ - _Intermediate CSS track_
+>On Codecademy.com I took a course in intermediate CSS after finnishing the course material on Code Institute. Here I learned about flexbox in CSS and also CSS inbuilt grid functionality that I used to create rows for each section of this website.
+>>Here is a link to the track on codecademy:
+>> https://www.codecademy.com/learn/learn-intermediate-css
+>
+>> here is a link to project I made to teach myself flexbox:
+>>https://github.com/4ntm4n/Tea-cozy/blob/main/README.md
+
+>#### __tips and tricks__ 
+>Here I will are some things I picked up after googling and reading forums
+>
+>__smooth-scrolling in CSS:__
+>>https://gomakethings.com/smooth-scrolling-links-with-only-css/
+>
+>__center an image from html through CSS:__
+>> https://www.w3schools.com/howto/howto_css_image_center.asp
+>
+>__adding script to bottom of the page:__
+>>https://stackoverflow.com/questions/38407962/when-to-use-the-script-tag-in-the-head-and-body-section-of-a-html-page#:~:text=Put%20your%20functions%20in%20the,not%20interfere%20with%20page%20content.&text=If%20your%20is%20not%20placed,of%20the%20element.
+>
+>__styling input fields:__
+>>https://www.w3schools.com/css/css_form.asp
+>
+>__hamburger menu:__
+>
+>found this burger menu method, imported it and modified it to suit this website.
+>>https://codepen.io/alvarotrigo/pen/wvrzPWL
+>
+>__using media queries:__
+>>https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+>
+>__how to ease everything on hover:__
+https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover
+
+
+### __Content__
+>In terms of text content, almost everything has been invented by myself on the fly as I saw fit and can be viewed as relevant mockup text that should be replaced by the site owners own words if this site ever were to be commercially used. 
+>
+>One exception would be the benefits of yoga. credited below.
+
+> #### __Benefits of yoga__
+> The cards in the benefits section have six different benefits of yoga presented on them, these benefits were inspired by this article.
+>> https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga
+
+
+### __media__
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
@@ -353,25 +428,63 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+In this section you can see where the media elements on the website comes from and who created them.
+
+> __flower pictures that are used for the benefits cards:__
+>https://www.freepik.com/free-vector/yoga-mind-quote-vector-template-social-media-post-set_20266489.htm#query=flower%20yoga%20pose&position=0&from_view=search
+>>created by rawpixel.com and availabel on https://freepik.com/
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+> __background of sign-up section on members page:__
+>https://www.freepik.com/free-vector/people-practicing-yoga_9176176.htm#query=yoga%20studio&position=33&from_view=keyword
+>>Created by pch.vector and available on https://freepik.com/
 
-## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+> __background of join section on index page__
+>https://www.freepik.com/free-vector/open-air-yoga-class-concept_9892525.htm#query=yoga&position=2&from_view=author
+>>created by pikisuperstar and available on https://freepik.com/
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+> __Selfie image in the about section on index page__
+> https://www.freepik.com/free-photo/woman-yoga-mat-relax-park-young-sporty-asian-woman-practicing-yoga-doing-headstand-exercise-working-out-wearing-sportswear-pants-top_14625823.htm#query=yoga%20nature%20headstand&position=0&from_view=search
+>> Image by jcomp and available on https://freepik.com/
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+> __background image in header on index and members page__
+> 
+>> bought from adobestock photos and available on https://adobestock.com/
+
+>__video element in sign-up section on members page__
+>
+>As mentioned in the testing area: _This video is for mockup reasons only_ to display what an embedded video would look like on this page and should be replaced by the site owners own video uploaded to youtube. All credit goes to the creator and creators account. 
+>
+>By viewing the video on this website, you are watching the creators channel on youtube through the iframe and youtube's embedded code.
+>
+>>_Name of account:_
+>>
+>>__Boho Beautiful Yoga__
+>
+>>_Link to video used:_
+>>
+>>https://www.youtube.com/watch?v=CiaD3jP0YhA
+___
+
+### Some final words from the developer
+
+Thank you for taking the time to read through this website documentation.
+
+This project is the first of five milestone projects in a full stack developer course that I have enrolled through [Code Institute](https://codeinstitute.net).
+
+- There are many ways to approach a project like this, but in this case I wanted to:
+  
+  - __A__: limit myself to __pure__ html and CSS since this is a course in those topics and I was curious to see how much could be done without using any javascript to create front end functionality. 
+  
+  - __B__: __not use__ any framework to aid me in class creation, grid functionality and design.
+
+  - __C__: Work from a __pre-defined__ project suggestion (in this case yoga / mindfullness) to further challange myself and create a, what I can imagine, more life like scenario for a web developer where you put yourself in a clients shoes and work with a topic that is not always aligning with personal interests.
+
+
+
+>FlexGrid Yoga - a study in webdevelopment
+>
+>By Anton Askling 2022
