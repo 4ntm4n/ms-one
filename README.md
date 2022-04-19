@@ -1,8 +1,9 @@
 # FlexGrid Yoga
 
- [__A website that let's a personal yoga instructor inspire its visitors to become more interested in yoga, and grow her community.__](https://4ntm4n.github.io/ms-one/index.html)
-
 ![FlexGrid on different screen sizes and devices](assets/img/readme/Screenshot%20from%202022-04-18%2011-50-26.png)
+
+ [__Have a look on your own device__](https://4ntm4n.github.io/ms-one/index.html)
+
 
 ## Project outline
 
@@ -90,7 +91,7 @@ __Responsive design__
 ___
 
 ## Website Features
-___
+
 > ### Header
 
 The header is designed to be large enought to give breathing room to its elements and feel relaxed, while still hint that there are information visible below that you can scroll to.
