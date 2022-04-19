@@ -37,7 +37,7 @@ I decided to work from one of the pre-defined project suggestions because  I wan
   - give breif overview of the benefits of yoga
   - let new users sign up to newsletter to keep them in the loop of what is happening in the community
   - let users know how they can engage in social media.
-  - let existing users log in to view the paid-for content
+  - let existing users log in to view the paid-for content.
 
 ___
 
@@ -132,8 +132,9 @@ __Design:__
 
 ![Benefits section of FlexGridYoga](assets/img/readme/Screenshot-index-benefits.png)
 
->The second section informs the users of som of the benefits of yoga
->>To make this section a bit more interesting, I created a floating effect by moving the cards ever so slightly upwards and added more box-shadow when the user hovers the pointer over the them with the mouse. 
+>This section informs the users of som of the benefits of yoga
+>
+>To make this section a bit more interesting, I created a floating effect by moving the cards ever so slightly upwards and added more box-shadow when the user hovers the pointer over the them with the mouse. 
 
 
  __Contains the following elements:__
@@ -301,8 +302,8 @@ __Design:__
 
 
 
-
-
+no errors in the css with jigsaw validator.
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv
 
 
 
