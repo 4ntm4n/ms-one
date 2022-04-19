@@ -5,7 +5,7 @@
 ![FlexGrid on different screen sizes and devices](assets/img/readme/Screenshot%20from%202022-04-18%2011-50-26.png)
 
 ## Project outline
-___
+
 >Typical users are interested in getting involved with online-classes and tutorship in yoga.
 
 - __The typical end user wants to:__
@@ -33,22 +33,21 @@ ___
 
 
 ## Approach
-___
 
 ### Design Approach
 
 The design of the website is created with the benefits of yoga in mind. the text should be easy to read and not be distracted by design elements around it. the design features are created to feel relaxed positive and light
 
 __Design features__
-- >Elements that contain no text are __soft and rounded__.
+- Elements that contain no text are __soft and rounded__.
 
-- > Text areas are __square and light__ to stand out from the rest of the website and enhance readability. 
+  - Text areas are __square and light__ to stand out from the rest of the website and enhance readability. 
 
-- >initially the colors are __few and muted__, as you progress down the site __more colors__ are mixed in to keep visitors curious and __enhance positivity__.
+  - initially the colors are __few and muted__, as you progress down the site __more colors__ are mixed in to keep visitors curious and __enhance positivity__.
 
-- > Elements have a __lot of space__ around them to feel more relaxed. 
+  - Elements have a __lot of space__ around them to feel more relaxed. 
 
-- >Elements that have animations are __slow and subtle__ to make elements feel __relaxing__.
+  - Elements that have animations are __slow and subtle__ to make elements feel __relaxing__.
 
 __Fonts__
 
@@ -111,9 +110,9 @@ The header is designed to be large enought to give breathing room to its element
        the user can choose to subscribe to a newsletter through a form or click a link to go to the sign-up form and become a full paying member. 
 
 __What it accomplish:__
-1. > let users know more about the website.
-2. > give users a shortcut to join section.       
-3. > give the user a way to navigate around the site. 
+1.  let users know more about the website.
+2.  give users a shortcut to join section.       
+3.  give the user a way to navigate around the site. 
 
 ___
 > ### About Section - instructor presentation
@@ -128,8 +127,8 @@ In the about section, the yoga instructor get a chance to introduce herself. Thi
  - selfie __image__ 
 
 __What it accomplish:__
-1. > Let users get to know the instructor.
-2. > Let site owner diffirentiate herself from competitors       
+1.  Let users get to know the instructor.
+2.  Let site owner diffirentiate herself from competitors       
 
 ___
 > ### Benefits section - Why yoga?
@@ -145,9 +144,9 @@ The goal with this is to inspire users interest in the subject. This is done wit
  -  interactive and responsive __cards__
 
 __What it accomplish:__
-1. > Educate users on the benefits of engaging in yoga.
-2. > Give site owner a tool to inspire her visitors.
-3. > Make website a bit more interactive.
+1.  Educate users on the benefits of engaging in yoga.
+2.  Give site owner a tool to inspire her visitors.
+3.  Make website a bit more interactive.
 
 ___
 > ### Join Section - first step to get involved
@@ -157,7 +156,6 @@ New users might be hesitant to become a full paying member on the first visit. S
 ![Join section of FlexGridYoga](assets/img/readme/Screenshot-index-join.png)
 
 
->
 
  __Contains the following elements:__
  - a responsive __text-box__ containing information on what _value_ signing up could bring new users.  
@@ -169,8 +167,8 @@ New users might be hesitant to become a full paying member on the first visit. S
    - __Submit button__
 
 __What it accomplish:__
-1. > Educate users on the benefits of engaging in yoga.
-2. > Give site owner a tool to inspire her visitors in the future.
+1.  Educate users on the benefits of engaging in yoga.
+2.  Give site owner a tool to inspire her visitors in the future.
 
 __Design feature:__
 >Input labels are placed off screen using CSS. The users can't see them, but the screen readers can. Making the section looking clean while keeping functionality. Placeholders shows the user what is expected in the form-fields.
@@ -216,10 +214,10 @@ __Contains the following elements__
    - a _Billing_ __fieldset__ that let the user fill in the billing adress for the payment.
 
 __What it accomplish:__
-1. > Give users an idea of what is behind the paywall.
-2. > Give site owner a way to promote the paid-for content.
-3. > Let users create a members account.
-4. > Let users poivide payment details to become full members.
+1.  Give users an idea of what is behind the paywall.
+2.  Give site owner a way to promote the paid-for content.
+3.  Let users create a members account.
+4.  Let users poivide payment details to become full members.
 
 __Technical Feature:__
 >the video element in the information box let's the user get a hint of what to expect as a paying member. The video runs on youtube using iframe and youtubes sharing feature using embedded code which gives the user full controll over play, pause, volume and playing speed functionalities.
@@ -237,8 +235,8 @@ The footer and the end of the website contains links to the website's social med
  - __Copy right text__ for the website. ( in this case my own name since this is an excersise.)
 
 __Section Goal:__
-1. > Let users connect to website's social media platforms
-2. > Give site owner a way to promote her community on social media.
+1.  Let users connect to website's social media platforms
+2.  Give site owner a way to promote her community on social media.
 
 __Design feature:__
 > The footer area is designed to be as clean and minimal as possible yet have enough contrast to be clear ans readable.
@@ -408,25 +406,19 @@ https://stackoverflow.com/questions/41267357/css-ease-in-and-out-on-hover
 
 
 ### __Content__
->In terms of text content, almost everything has been invented by myself on the fly as I saw fit and can be viewed as relevant mockup text that should be replaced by the site owners own words if this site ever were to be commercially used. 
->
->One exception would be the benefits of yoga. credited below.
+In terms of text content, almost everything has been invented by myself on the fly as I saw fit and can be viewed as relevant mockup text that should be replaced by the site owners own words if this site ever were to be commercially used.
 
 > #### __Benefits of yoga__
 > The cards in the benefits section have six different benefits of yoga presented on them, these benefits were inspired by this article.
 >> https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-benefits-of-yoga
 
+### __Fonts and icons__
+> - Fonts for text and heading has been imported through [Google Fonts](https://fonts.google.com/)
+>> 
+> - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### __media__
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
+### __Media__
 
 In this section you can see where the media elements on the website comes from and who created them.
 
