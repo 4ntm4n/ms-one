@@ -394,7 +394,8 @@ Credits:
 }
 
 #selfie > img {
-  width: 19em;
+  width: 290px;
+  height: 290px;
 }
 
 #about-text {
