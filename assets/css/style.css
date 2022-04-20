@@ -1,9 +1,8 @@
 /* fonts imoported from Google Fonts -- */
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:wght@300&display=swap"); 
-
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:wght@300&display=swap");
 
 /* CSS grid -------------------------- */
-  /* 
+/* 
   This is how my grid works:
     grid-template-rows auto-gerenerates a row for each section of the website. 
     The rows generated will have a minimum height of 100px and a maximum height 
@@ -28,7 +27,6 @@
     "join"
     "footer";
 }
-
 
 /* general styling ------------------- */
 
@@ -88,8 +86,8 @@ fieldset {
 }
 
 iframe {
-  height:200px;
-  width:340px;
+  height: 200px;
+  width: 340px;
   border: none !important;
 }
 
@@ -203,6 +201,7 @@ details summary.btn {
 header {
   grid-area: header;
   height: 640px;
+  background-color: black;
   background: url(../img/AdobeStock_330497250_mirrored_rezised.webp) bottom
     center;
   box-shadow: inset rgba(48, 14, 58, 0.486) 0 1000px;
@@ -210,7 +209,6 @@ header {
 }
 
 /* header > nav */
-
 
 .navbar {
   /* this creates the navbar from a span tag that can disapear 
@@ -227,7 +225,6 @@ header {
 #main-nav {
   z-index: 4;
 }
-
 
 /*
 Credits:
@@ -643,7 +640,6 @@ fieldset {
   .text-box {
     min-width: 10em;
   }
-  
 
   /* header section ------------------------------ */
 
@@ -778,7 +774,6 @@ fieldset {
 }
 
 @media only screen and (min-width: 768px) {
-
   /* header section -----------------------------*/
   header {
     height: 700px;
@@ -792,7 +787,6 @@ fieldset {
 }
 
 @media only screen and (min-width: 1015px) {
-
   /* benefits section -------------------------- */
   .card {
     width: 13em;
@@ -802,7 +796,6 @@ fieldset {
 }
 
 @media only screen and (min-width: 1200px) {
-
   /* heading section --------------------------- */
   #big-welcome-heading {
     font-size: 8em;

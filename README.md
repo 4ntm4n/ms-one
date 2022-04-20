@@ -365,9 +365,25 @@ Here follows some picure of the website on mobile and tablet to show the website
 To extend the validation of the HTML and CSS, external validators from w3c has been checking the code as well.
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing the index page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Findex.html)
+  - No errors were returned when passing the members page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Findex.html)
+   
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing the single CSS file through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Accessibility: 
+  - External accesibility tests were made with no errors through [WAVE](https://wave.webaim.org/report#/https://4ntm4n.github.io/ms-one/index.html) 
+
+
+#### **False error occured on WAVE**
+When searching for Accessibility bugs on _this_ website, a bug in the _WAVE tool_ was found instead...
+
+> WAVE is giving this website an error on the main h1 heading, stating that the contrast is very poor between the foreground and background. However, when you check the code WAVE is using to compare the h1 tag with the backround, it is comparing the _almost white_ h1 tag to a _completely white_ background. It seems as though WAVE, unlike Lighthouse, does not take the _background image's_ color into account when looking for contrast on elements, but rather the _background color behind_ the image. There for the website get this error on WAVE. 
+> 
+> Below are some pictures that illustrates the problem and show you why this error is false.
+
+
+
 
 ### Unfixed Bugs
 
