@@ -355,6 +355,10 @@ Here follows some picure of the website on mobile and tablet to show the website
 > > _Performance_, _Accessibility_ adhearance, _SEO_ and _Best Practices_ have been tested with the inbuild lighthouse tester in chrome developer tools.
 > >
 > > These are the results.
+> >
+> > __Please Note:__
+> >
+> > The iframe element containing __youtube's code__ has been commented out during testing of the website.
 
 ### **Validator Tests**
 

@@ -14,6 +14,10 @@
     <header id="sign-up-header">
 
         <nav class="nav-container overflow">
+            <!-- The checkbox is going to be a transparent overlay for the hambuger menu
+                'button' it is the checkbox that toggles the menu on smaller screens.
+                Credits:
+                The checkbox idea and parts of this code below is taken from this codepen by Alvaró Trigo https://codepen.io/alvarotrigo/pen/wvrzPWL -->
             <label class="hidden" for="togmenu">toggle menu</label>
             <input class="checkbox" type="checkbox" name="toggle-menu" id="togmenu" />
 
@@ -60,10 +64,8 @@
                     <p>For a monthy payment of €6 you will get full access to my live yoga sessions as well as my
                         more advanced pre-recorded sessions, just like the example below.</p>
                 </div>
-                 <iframe src="https://www.youtube.com/embed/CiaD3jP0YhA" 
-                        title="YouTube video player"
-                        allowfullscreen
-                        allow="accelerometer; 
+                <iframe src="https://www.youtube.com/embed/CiaD3jP0YhA" title="YouTube video player" allowfullscreen
+                    allow="accelerometer; 
                                 autoplay; 
                                 clipboard-write; 
                                 encrypted-media; 
