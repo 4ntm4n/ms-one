@@ -1,7 +1,9 @@
+/* fonts imoported from Google Fonts -- */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:wght@300&display=swap"); 
 
-/* css grid --------------------- */
 
-/* 
+/* CSS grid -------------------------- */
+  /* 
   This is how my grid works:
     grid-template-rows auto-gerenerates a row for each section of the website. 
     The rows generated will have a minimum height of 100px and a maximum height 
@@ -9,8 +11,9 @@
     
     All rows represents a section of the website that is specified in the grid-template-areas.
     By doing it this way, you could easily add new sections to the website in the future,
-    and also change order of the exisiting sections using CSS.
-*/
+    and also change order of the exisiting sections using CSS. 
+    It also removes the need for additional divs in index.html
+  */
 
 .main-grid {
   display: grid;
@@ -27,8 +30,7 @@
 }
 
 
-/* general styling ---------------- */
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:wght@300&display=swap"); 
+/* general styling ------------------- */
 
 * {
   margin: 0;
@@ -80,16 +82,12 @@ a {
   text-decoration: none;
 }
 
-label {
-  display: block;
-}
-
 fieldset {
   padding: 2em;
   border: none;
 }
 
-/* reusable classes --------------------------- */
+/* reusable classes ------------------------------ */
 
 .hidden {
   position: absolute;
@@ -194,7 +192,7 @@ details summary.btn {
   color: #521a5a;
 }
 
-/* header section ------------------------------ */
+/* header section --------------------------------- */
 
 header {
   grid-area: header;
@@ -206,7 +204,11 @@ header {
 }
 
 /* header > nav */
+
+
 .navbar {
+  /* this creates the navbar from a span tag that can disapear 
+  when checkbox is checked without affecting other elements */
   position: fixed;
   background-color: rgba(255, 255, 255, 0.76);
   width: 100%;
@@ -219,6 +221,14 @@ header {
 #main-nav {
   z-index: 4;
 }
+
+
+/*
+Credits:
+  below is where the mobile navigation menu is created. 
+  many lines of the code is taken from here:
+  https://codepen.io/alvarotrigo/pen/wvrzPWL 
+*/
 
 .hamburger-lines {
   display: flex;
@@ -351,7 +361,7 @@ header {
   width: 19em;
 }
 
-/* about section -------------------------------- */
+/* about section ----------------------------------- */
 #about {
   grid-area: about;
   background-color: #dac9dd;
@@ -386,7 +396,7 @@ header {
   box-shadow: rgba(71, 71, 71, 0.158) 1px 10px 20px 2px;
 }
 
-/* benefit section ----------------------------- */
+/* benefit section -------------------------------- */
 #benefits {
   grid-area: benefits;
   background-color: #faf5ef;
@@ -465,7 +475,7 @@ header {
   background-size: cover;
 }
 
-/* join section -------------------------------- */
+/* join section ----------------------------------- */
 #join {
   grid-area: join;
   background: url(../img/4258076.webp) center center no-repeat;
@@ -519,7 +529,7 @@ header {
   margin: 0.4em 0 1.8em 0 !important;
 }
 
-/* footer section -------------------------------- */
+/* footer section ----------------------------------- */
 footer {
   grid-area: footer;
   background-color: #927397;
@@ -551,7 +561,7 @@ footer {
   color: #24000c;
 }
 
-/* sign-in / sign-up page ------------------------ */
+/* sign-in / sign-up page --------------------------- */
 #sign-in {
   padding-top: 2em;
   height: 500px;
@@ -619,10 +629,12 @@ fieldset {
   margin: auto;
 }
 
+/* Media Queries  -------------------------------- */
+
 @media only screen and (min-width: 580px) {
   /* reusable classes ---------------------------- */
   .text-box {
-    width: 10em;
+    min-width: 10em;
   }
   
 
@@ -716,7 +728,7 @@ fieldset {
     color: #faf5ef;
   }
 
-  /* about section ------------------------------- */
+  /* about section ----------------------------- */
   #about-box {
     min-height: 800px;
   }
@@ -728,14 +740,14 @@ fieldset {
     order: 2;
   }
 
-  /* benefits section ----------------------------*/
+  /* benefits section -------------------------- */
 
   .card {
     width: 12em;
     height: 19em;
   }
 
-  /* join section ------------------------------- */
+  /* join section ------------------------------ */
   #newsletter-info {
     width: 100%;
   }
@@ -744,7 +756,7 @@ fieldset {
     flex-direction: row;
   }
 
-  /* sign-up / sign-in section -------------------*/
+  /* sign-up / sign-in section ------------------*/
   .sign-in-up {
     flex-direction: column;
   }
@@ -774,7 +786,7 @@ fieldset {
 
 @media only screen and (min-width: 1015px) {
 
-  /* benefits section --------------------------- */
+  /* benefits section -------------------------- */
   .card {
     width: 13em;
     height: 22em;
@@ -784,7 +796,7 @@ fieldset {
 
 @media only screen and (min-width: 1200px) {
 
-  /* heading section ---------------------------- */
+  /* heading section --------------------------- */
   #big-welcome-heading {
     font-size: 8em;
     display: block;
