@@ -478,6 +478,6 @@ This project is the first of five milestone projects in a full stack developer c
 
 
 
->FlexGrid Yoga - a study in webdevelopment
+>FlexGrid Yoga - a study in HTML & CSS
 >
 >By Anton Askling 2022
