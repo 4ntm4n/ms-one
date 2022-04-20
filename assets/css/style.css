@@ -1,9 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:wght@300&display=swap"); /* general styling  */
 
-/* css grid */
+/* css grid --------------------- */
+
+/* 
+  This is how my grid works:
+    grid-template-rows auto-gerenerates a row for each section of the website. 
+    The rows generated will have a minimum height of 100px and a maximum height 
+    of 1 fraction of what ever the total height of all rows combined is. 
+    
+    All rows represents a section of the website that is specified in the grid-template-areas.
+    By doing it this way, you could easily add new sections to the website in the future,
+    and also change order of the exisiting sections using CSS.
+*/
+
 .main-grid {
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+
+  /* If you want to add a new section to the grid, simply specify it here,
+  then declair that section with the grid-area attribute. Read more here: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area */
   grid-template-areas:
     "header"
     "about"
@@ -11,6 +25,10 @@
     "join"
     "footer";
 }
+
+
+/* general styling ---------------- */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Condensed:wght@300&display=swap"); 
 
 * {
   margin: 0;
@@ -71,7 +89,7 @@ fieldset {
   border: none;
 }
 
-/* reusable classes */
+/* reusable classes --------------------------- */
 
 .hidden {
   position: absolute;
@@ -127,8 +145,6 @@ a {
   text-align: center;
 }
 
-
-
 .btn {
   display: block;
   background-color: #412a44 !important;
@@ -178,13 +194,13 @@ details summary.btn {
   color: #521a5a;
 }
 
-
-/* header section -------------------------------- */
+/* header section ------------------------------ */
 
 header {
   grid-area: header;
   height: 640px;
-  background: url(../img/AdobeStock_330497250_mirrored_rezised.webp) bottom center;
+  background: url(../img/AdobeStock_330497250_mirrored_rezised.webp) bottom
+    center;
   box-shadow: inset rgba(48, 14, 58, 0.486) 0 1000px;
   background-size: cover;
 }
@@ -342,7 +358,7 @@ header {
   border-bottom: 3px solid #927397;
 }
 
-#about-text{
+#about-text {
   min-width: 18em;
 }
 
@@ -370,7 +386,7 @@ header {
   box-shadow: rgba(71, 71, 71, 0.158) 1px 10px 20px 2px;
 }
 
-/* benefit section -------------------------------- */
+/* benefit section ----------------------------- */
 #benefits {
   grid-area: benefits;
   background-color: #faf5ef;
@@ -378,7 +394,7 @@ header {
   flex-direction: column;
 }
 
-#benefits-heading{
+#benefits-heading {
   margin-top: 4em;
 }
 
@@ -416,14 +432,14 @@ header {
   border-radius: 10% 10% 0 0;
 }
 
-.card-text{
-  font-family:  helvetica, arial;
+.card-text {
+  font-family: helvetica, arial;
   font-size: 1.3rem;
   color: #1d4648;
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 
-/* setting background-images for #benefits .card */
+/* sets background-images for #benefits .card */
 #benefit-one {
   background: url(../img/cards/yogapose1.webp) center;
   background-size: cover;
@@ -535,8 +551,7 @@ footer {
   color: #24000c;
 }
 
-/* sign-in / sign-up page -------------------------------- */
-
+/* sign-in / sign-up page ------------------------ */
 #sign-in {
   padding-top: 2em;
   height: 500px;
@@ -605,10 +620,15 @@ fieldset {
 }
 
 @media only screen and (min-width: 580px) {
-  /* header section -------------------------------- */
+  /* reusable classes ---------------------------- */
+  .text-box {
+    width: 10em;
+  }
+  
 
-  /* nav */
+  /* header section ------------------------------ */
 
+  /* navigation */
   #main-nav a {
     width: 70px;
     font-weight: bold;
@@ -645,9 +665,6 @@ fieldset {
   #main-nav > li:last-child {
     margin-right: 2em;
   }
-  /* hero */
-
-
 
   /* join section -------------------------------- */
   #newsletter-info {
@@ -661,7 +678,7 @@ fieldset {
 }
 
 @media only screen and (min-width: 740px) {
-  /* header section -------------------------------- */
+  /* header section ------------------------------ */
 
   .nav-container {
     justify-content: flex-end;
@@ -699,7 +716,7 @@ fieldset {
     color: #faf5ef;
   }
 
-  /* about section -------------------------------- */
+  /* about section ------------------------------- */
   #about-box {
     min-height: 800px;
   }
@@ -711,14 +728,14 @@ fieldset {
     order: 2;
   }
 
-  /* benefits section -------------------------------- */
+  /* benefits section ----------------------------*/
 
   .card {
     width: 12em;
     height: 19em;
   }
 
-  /* join section -------------------------------- */
+  /* join section ------------------------------- */
   #newsletter-info {
     width: 100%;
   }
@@ -727,8 +744,7 @@ fieldset {
     flex-direction: row;
   }
 
-  /* sign-up / sign-in section -------------------------------- */
-
+  /* sign-up / sign-in section -------------------*/
   .sign-in-up {
     flex-direction: column;
   }
@@ -743,21 +759,22 @@ fieldset {
 }
 
 @media only screen and (min-width: 768px) {
-  /* header section -------------------------------- */
+
+  /* header section -----------------------------*/
   header {
     height: 700px;
     transition: all ease 0.5s;
   }
 
-  /* benefits  section -------------------------------- */
+  /* benefits  section ------------------------- */
   #benefits-container {
     gap: 50px;
   }
 }
 
 @media only screen and (min-width: 1015px) {
-  /* benefits section -------------------------------- */
 
+  /* benefits section --------------------------- */
   .card {
     width: 13em;
     height: 22em;
@@ -766,7 +783,8 @@ fieldset {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* heading section -------------------------------- */
+
+  /* heading section ---------------------------- */
   #big-welcome-heading {
     font-size: 8em;
     display: block;
