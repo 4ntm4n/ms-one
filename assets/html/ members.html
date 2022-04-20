@@ -11,167 +11,170 @@
 </head>
 
 <body>
-    <div class="main-grid">
-        <header id="sign-up-header">
+    <header id="sign-up-header">
 
-            <nav class="nav-container overflow">
-                <label class="hidden" for="togmenu">toggle menu</label>
-                <input class="checkbox" type="checkbox" name="toggle-menu" id="togmenu" />
+        <nav class="nav-container overflow">
+            <label class="hidden" for="togmenu">toggle menu</label>
+            <input class="checkbox" type="checkbox" name="toggle-menu" id="togmenu" />
 
-                <span class="navbar"></span>
-                <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
+            <span class="navbar"></span>
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul id="main-nav" class="container flex-box menu-items">
+                <li><a href="../../index.html" aria-label="go to home top section">Home</a></li>
+                <li><a href="../../index.html#about" aria-label="go to home about section">About</a></li>
+                <li><a href="../../index.html#benefits" aria-label="go to home benefits of yoga section">Why
+                        Yoga</a></li>
+                <li><a href="../../index.html#join" aria-label="go to home join newsletter section">Join Us</a></li>
+                <li><a href="#" aria-label="go to the top of this page (log in or sign up)">Members</a></li>
+            </ul>
+        </nav>
+
+        <div id="sign-in" class="members-container">
+            <form id="sign-in-form" action="#" method="POST" class="letter-form sign-in-up flex-box">
+                <fieldset class="flex-box letter-form sign-in-up">
+                    <legend>Members Log in</legend>
+
+                    <label class="hidden" for="loginemail">Email Adress</label>
+                    <input class="form-field" placeholder="email address" id="loginemail" name="loginemail" type="email"
+                        required>
+
+                    <label class="hidden" for="loginpass">Password</label>
+                    <input class="form-field" placeholder="Password" id="loginpass" name="loginpass" type="password"
+                        required>
+
+                </fieldset>
+                <input id="letter-submit" class="btn" value="Log in" type="submit">
+            </form>
+        </div>
+    </header>
+    <section id="sign-up-section">
+
+        <div class="members-container">
+            <div class="sign-up-info text-box">
+                <div id="offer">
+                    <h2 id="monthly-price">€6 / Month</h2>
+                    <p>For a monthy payment of €6 you will get full access to my live yoga sessions as well as my
+                        more advanced pre-recorded sessions, just like the example below.</p>
                 </div>
-                <ul id="main-nav" class="container flex-box menu-items">
-                    <li><a href="../../index.html" aria-label="go to home top section">Home</a></li>
-                    <li><a href="../../index.html#about" aria-label="go to home about section">About</a></li>
-                    <li><a href="../../index.html#benefits" aria-label="go to home benefits of yoga section">Why
-                            Yoga</a></li>
-                    <li><a href="../../index.html#join" aria-label="go to home join newsletter section">Join Us</a></li>
-                    <li><a href="#" aria-label="go to the top of this page (log in or sign up)">Members</a></li>
-                </ul>
-            </nav>
+                <iframe src="https://www.youtube.com/embed/CiaD3jP0YhA" 
+                        title="YouTube video player"
+                        allowfullscreen
+                        allow="accelerometer; 
+                                autoplay; 
+                                clipboard-write; 
+                                encrypted-media; 
+                                gyroscope; 
+                                picture-in-picture">
+                </iframe>
+            </div>
+            <form id="sign-up-form" action="#" method="POST" class="letter-form sign-in-up flex-box text-box">
+                <fieldset class="flex-box letter-form sign-in-up">
+                    <legend>Create an account</legend>
+                    <label class="hidden" for="newemail">Email Adress</label>
+                    <input class="form-field" placeholder="Your email address" id="newemail" name="newemail"
+                        type="email" required>
 
-            <div id="sign-in" class="members-container">
-                <form id="sign-in-form" action="#" method="POST" class="letter-form sign-in-up flex-box">
-                    <fieldset class="flex-box letter-form sign-in-up">
-                        <legend>Members Log in</legend>
+                    <label class="hidden" for="newpass">Password</label>
+                    <input class="form-field" placeholder="Choose a password" id="newpass" name="newpass"
+                        type="password" required>
 
-                        <label class="hidden" for="loginemail">Email Adress</label>
-                        <input class="form-field" placeholder="email address" id="loginemail" name="loginemail"
-                            type="email" required>
+                    <label class="hidden" for="confpass">Confirm Password</label>
+                    <input class="form-field" placeholder="Confirm password" id="confpass" name="confpass"
+                        type="password" required>
+                </fieldset>
 
-                        <label class="hidden" for="loginpass">Password</label>
-                        <input class="form-field" placeholder="Password" id="loginpass" name="loginpass" type="password"
+                <details>
+                    <summary class="btn">
+                        Payment Details
+                    </summary>
+
+                    <fieldset class="flex-box letter-form sign-in-up payment-details">
+                        <legend>card info</legend>
+                        <h5 class="pay-form-heading">We accept the following cards:</h5>
+
+
+
+                        <ul class="accepted-cards flex-box"
+                            aria-label="we accept master card, visa and american express">
+                            <li class="paycard"><i class="fa-brands valid-card fa-cc-mastercard"></i></li>
+                            <li class="paycard"><i class="fa-brands valid-card fa-cc-visa"></i></li>
+                            <li class="paycard"><i class="fa-brands valid-card fa-cc-amex"></i></li>
+                        </ul>
+                        <label for="cname">Name on Card</label>
+                        <input class="form-field" name="cardname" placeholder="John Doe" id="cname" type="text"
                             required>
 
-                    </fieldset>
-                    <input id="letter-submit" class="btn" value="Log in" type="submit">
-                </form>
-            </div>
-        </header>
-        <section id="sign-up-section">
+                        <label for="cnumb">Credit card number</label>
+                        <input class="form-field" name="cardnumber" placeholder="1111-2222-3333-4444" id="cnumb"
+                            type="text" required>
 
-            <div class="members-container">
-                <div class="sign-up-info text-box">
-                    <div id="offer">
-                        <h2 id="monthly-price">€6 / Month</h2>
-                        <p>For a monthy payment of €6 you will get full access to my live yoga sessions as well as my
-                            more advanced pre-recorded sessions, just like the example below.</p>
-                    </div>
-                    <iframe width="340" height="200" src="https://www.youtube.com/embed/CiaD3jP0YhA"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen> 
-                    </iframe>
-                </div>
-                <form id="sign-up-form" action="#" method="POST" class="letter-form sign-in-up flex-box text-box">
-                    <fieldset class="flex-box letter-form sign-in-up">
-                        <legend >Create an account</legend>
-                        <label class="hidden" for="newemail">Email Adress</label>
-                        <input class="form-field" placeholder="Your email address" id="newemail" name="newemail"
-                            type="email" required>
+                        <label for="expmonth">Exp Month</label>
+                        <input class="form-field" name="expmonth" placeholder="April" id="expmonth" type="text"
+                            required>
 
-                        <label class="hidden" for="newpass">Password</label>
-                        <input class="form-field" placeholder="Choose a password" id="newpass" name="newpass"
-                            type="password" required>
+                        <label for="expyear">Exp Year</label>
+                        <input class="form-field" name="expyear" placeholder="2022" id="expyear" type="text" required>
 
-                        <label class="hidden" for="confpass">Confirm Password</label>
-                        <input class="form-field" placeholder="Confirm password" id="confpass" name="confpass"
-                            type="password" required>
+                        <label for="cvv">CVV</label>
+                        <input class="form-field" name="cvv" placeholder="333" id="cvv" type="text" required>
                     </fieldset>
 
-                    <details>
-                        <summary class="btn">
-                            Payment Details
-                        </summary>
+                    <!-- this part is made after a w3 school example. and modified with my own form-field class (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form) -->
+                    <fieldset class="flex-box letter-form sign-in-up payment-details">
+                        <legend>Billing</legend>
+                        <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                        <input class="form-field" type="text" id="fname" name="firstname" placeholder="John M. Doe"
+                            required>
 
-                        <fieldset class="flex-box letter-form sign-in-up payment-details">
-                            <legend >card info</legend>
-                            <h5 class="pay-form-heading">We accept the following cards:</h5>
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input class="form-field" type="text" id="email" name="email" placeholder="john@example.com"
+                            required>
 
+                        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                        <input class="form-field" type="text" id="adr" name="address" placeholder="542 W. 15th Street"
+                            required>
 
+                        <label for="city"><i class="fa fa-institution"></i> City</label>
+                        <input class="form-field" type="text" id="city" name="city" placeholder="New York" required>
 
-                            <ul class="accepted-cards flex-box"
-                                aria-label="we accept master card, visa and american express">
-                                <li class="paycard"><i class="fa-brands valid-card fa-cc-mastercard"></i></li>
-                                <li class="paycard"><i class="fa-brands valid-card fa-cc-visa"></i></li>
-                                <li class="paycard"><i class="fa-brands valid-card fa-cc-amex"></i></li>
-                            </ul>
-                            <label for="cname">Name on Card</label>
-                            <input class="form-field" name="cardname" placeholder="John Doe" id="cname" type="text"
-                                required>
+                        <label for="state">State</label>
+                        <input class="form-field" type="text" id="state" name="state" placeholder="NY" required>
 
-                            <label for="cnumb">Credit card number</label>
-                            <input class="form-field" name="cardnumber" placeholder="1111-2222-3333-4444" id="cnumb"
-                                type="text" required>
+                        <label for="zip">Zip</label>
+                        <input class="form-field" type="text" id="zip" name="zip" placeholder="10001" required>
+                    </fieldset>
+                    <!-- w3 school example ends here -->
 
-                            <label for="expmonth">Exp Month</label>
-                            <input class="form-field" name="expmonth" placeholder="April" id="expmonth" type="text"
-                                required>
+                    <input id="sign-up-submit" class="btn" value="Get Access" type="submit">
+                </details>
 
-                            <label for="expyear">Exp Year</label>
-                            <input class="form-field" name="expyear" placeholder="2022" id="expyear" type="text"
-                                required>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-container" class="container flex-box">
+            <ul class="social-links flex-box">
+                <li><a target="_blank" href="https://instagram.com/"
+                        aria-label="Go to our instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li><a target="_blank" href="https://facebook.com/"
+                        aria-label="Go to our facebook page (opens in new tab)"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li><a target="_blank" href="https://twitter.com/"
+                        aria-label="Go to our twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
 
-                            <label for="cvv">CVV</label>
-                            <input class="form-field" name="cvv" placeholder="333" id="cvv" type="text" required>
-                        </fieldset>
+            <p id="copyrights">&copy; Anton Askling 2022</p>
+        </div>
+    </footer>
 
-                        <!-- this part is made after a w3 school example. and modified with my own form-field class (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form) -->
-                        <fieldset class="flex-box letter-form sign-in-up payment-details">
-                            <legend>Billing</legend>
-                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                            <input class="form-field" type="text" id="fname" name="firstname" placeholder="John M. Doe"
-                                required>
-
-                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                            <input class="form-field" type="text" id="email" name="email" placeholder="john@example.com"
-                                required>
-
-                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                            <input class="form-field" type="text" id="adr" name="address"
-                                placeholder="542 W. 15th Street" required>
-
-                            <label for="city"><i class="fa fa-institution"></i> City</label>
-                            <input class="form-field" type="text" id="city" name="city" placeholder="New York" required>
-
-                            <label for="state">State</label>
-                            <input class="form-field" type="text" id="state" name="state" placeholder="NY" required>
-
-                            <label for="zip">Zip</label>
-                            <input class="form-field" type="text" id="zip" name="zip" placeholder="10001" required>
-                        </fieldset>
-                        <!-- w3 school example ends here -->
-
-                        <input id="sign-up-submit" class="btn" value="Get Access" type="submit">
-                    </details>
-
-                </form>
-            </div>
-        </section>
-        <footer>
-            <div id="footer-container" class="container flex-box">
-                <ul class="social-links flex-box">
-                    <li><a target="_blank" href="https://instagram.com/"
-                            aria-label="Go to our instagram page (opens in new tab)"><i
-                                class="fab fa-instagram"></i></a></li>
-                    <li><a target="_blank" href="https://facebook.com/"
-                            aria-label="Go to our facebook page (opens in new tab)"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li><a target="_blank" href="https://twitter.com/"
-                            aria-label="Go to our twitter page (opens in new tab)"><i class="fab fa-twitter"></i></a>
-                    </li>
-                </ul>
-
-                <p id="copyrights">&copy Anton Askling 2022</p>
-            </div>
-        </footer>
-
-        <!-- script to import icon library from fontawesome (https://fontawesome.com/) -->
-        <script src="https://kit.fontawesome.com/2759c1d447.js" crossorigin="anonymous"></script>
+    <!-- script to import icon library from fontawesome (https://fontawesome.com/) -->
+    <script src="https://kit.fontawesome.com/2759c1d447.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

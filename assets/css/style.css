@@ -87,6 +87,12 @@ fieldset {
   border: none;
 }
 
+iframe {
+  height:200px;
+  width:340px;
+  border: none !important;
+}
+
 /* reusable classes ------------------------------ */
 
 .hidden {
