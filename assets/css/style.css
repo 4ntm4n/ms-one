@@ -36,7 +36,10 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #927397;
+}
+
+body{
+  background-color: #412a44;
 }
 
 h1, h2, h3, h4, h5, h6, legend {
@@ -46,7 +49,7 @@ h1, h2, h3, h4, h5, h6, legend {
 
 p, a, label {
   font-family: "Roboto Condensed", helvetica, sans-serif;
-  color: #242c2c;
+  color: #0c0c0c;
 }
 
 p a {
