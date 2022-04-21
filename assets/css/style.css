@@ -626,7 +626,7 @@ fieldset {
   margin: auto;
 }
 
-/* Media Queries  -------------------------------- */
+/* Media Queries - Mobile First ------------------ */
 
 @media only screen and (min-width: 580px) {
   /* reusable classes ---------------------------- */
