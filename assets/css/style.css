@@ -39,14 +39,21 @@ html {
   background-color: #927397;
 }
 
-h1, h2, h3, h4, h5, h6, legend {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
   font-family: "Fredoka One", cursive;
   color: #927397;
 }
 
-p, a, label {
+p,
+a,
+label {
   font-family: "Roboto Condensed", helvetica, sans-serif;
-  color: #242c2c;
 }
 
 p a {
@@ -191,10 +198,6 @@ details summary.btn {
   cursor: pointer;
 }
 
-#pay-form-accepts {
-  color: #521a5a;
-}
-
 .paycard {
   margin: 0.7em 0.5em 2em;
 }
@@ -203,8 +206,6 @@ details summary.btn {
   font-size: 1.8em;
   color: #521a5a;
 }
-
-
 
 /* header section --------------------------------- */
 
@@ -215,6 +216,8 @@ header {
     center;
   box-shadow: inset rgba(48, 14, 58, 0.486) 0 1000px;
   background-size: cover;
+
+  background-color: #927397;
 }
 
 /* header > nav */
@@ -574,7 +577,7 @@ footer {
   color: #24000c;
 }
 
-/* sign-in / sign-up page --------------------------- */
+/* members ---------------------------------- */
 #sign-in {
   padding-top: 2em;
   height: 500px;
@@ -611,7 +614,6 @@ footer {
   padding: 2em;
 }
 
-
 fieldset {
   margin: 10px;
 }
@@ -634,6 +636,17 @@ fieldset {
 
 #sign-up-submit {
   margin: auto;
+}
+
+
+#pay-form-accepts {
+  color: #521a5a;
+}
+
+
+.payment-details label{
+  font-weight: bold;
+  color: #521a5a;
 }
 
 /* Media Queries - Mobile First ------------------ */
