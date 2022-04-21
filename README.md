@@ -6,9 +6,8 @@
 
 ## Project outline
 
-
-
 ### **user stories:**
+
 > Typical users are interested in getting involved with online-classes and tutorship in yoga.
 
 - **The typical end user wants to:**
@@ -310,6 +309,7 @@ Here follows some picure of the website on mobile and tablet to show the website
 > > This is what the mobile navigation looks like closed.
 
 > ![mobile navigation open](assets/img/readme/testing/mobile-nav-open.png)
+>
 > > When you click the burger menu button, this is what the navigation menu looks like open.
 > >
 > > You can also see that when open the menu, the menu bar disapears, and the burger icon is animated to become an X.
@@ -369,8 +369,11 @@ Here follows some picure of the website on mobile and tablet to show the website
 To extend the validation of the HTML and CSS, external validators from w3c has been checking the code as well.
 
 - HTML
+
   - No errors were returned when passing the index page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Findex.html)
-  - No errors were returned when passing the members page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Findex.html)
+
+  - No errors were returned when passing the members page through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Fmembers.html)
+
 - CSS
 
   - No errors were found when passing the single CSS file through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -413,8 +416,9 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 
 ## **Testing User stories**
 
-> In this section we are testing the user stories that was outlined before this website was created in order to check if we have met all user needs.
-> >We are testing the user stories one by one. Click the list items to view its correlating solution.
+> In this section we are testing the user stories stated in the outlined before this website was created in order to check if we have met all user needs.
+>
+> > We are testing the user stories one by one. Click the list items to view its correlating solution.
 
 - **Typical users wants to:**
 
