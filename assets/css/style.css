@@ -36,21 +36,15 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #927397;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-legend {
+h1, h2, h3, h4, h5, h6, legend {
   font-family: "Fredoka One", cursive;
   color: #927397;
 }
 
-p,
-a,
+p, a,
 label {
   font-family: "Roboto Condensed", helvetica, sans-serif;
   color: #242c2c;
@@ -201,7 +195,6 @@ details summary.btn {
 header {
   grid-area: header;
   height: 640px;
-  background-color: black;
   background: url(../img/AdobeStock_330497250_mirrored_rezised.webp) bottom
     center;
   box-shadow: inset rgba(48, 14, 58, 0.486) 0 1000px;
