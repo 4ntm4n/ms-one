@@ -55,7 +55,7 @@ The design of the website is created with the benefits of yoga in mind. the text
 
 > **'Fredoka One'** is a round blocky font that is chosen for the headings on the webpage to blend in with the overall design language.
 
-> Paragraghs, buttons, and other small text areas have the font set to **helvetica** with a fallback of _Arial_ to maximize readability while not being a distraction from the rest of the website.
+> Paragraghs, anchor tags, and other small text areas have the font set to **roboto** with a fallback of _helvetica_ and sans-serif to maximize readability while not being a distraction from the rest of the website.
 
 **Colors**
 
