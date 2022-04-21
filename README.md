@@ -26,7 +26,7 @@
 - **in short, the site owner wants to:**
 
   - educate new site visitors about herself
-  - give breif overview of the benefits of yoga
+  - give brief overview of the benefits of yoga
   - let new users sign up to newsletter to keep them in the loop of what is happening in the community
   - let users know how they can engage in social media.
   - let existing users log in to view the paid-for content.
@@ -55,7 +55,7 @@ The design of the website is created with the benefits of yoga in mind. the text
 
 > **'Fredoka One'** is a round blocky font that is chosen for the headings on the webpage to blend in with the overall design language.
 
-> Paragraghs, anchor tags, and other small text areas have the font set to **roboto** with a fallback of _helvetica_ and sans-serif to maximize readability while not being a distraction from the rest of the website.
+> Paragraphs, anchor tags, and other small text areas have the font set to **Roboto** with a fallback of _Helvetica_ and _Sans-Serif_ to maximize readability while not being a distraction from the rest of the website.
 
 **Colors**
 
@@ -63,7 +63,7 @@ The design of the website is created with the benefits of yoga in mind. the text
 
 **Animations**
 
-> animations that take place when a user interacts with certain elements on the website are designed to be slightly slower than on an avarage website to induse a relaxing feeling, which in turn connects back to the overall design approach.
+> animations that take place when a user interacts with certain elements on the website are designed to be slightly slower than on an average website to induce a relaxing feeling, which in turn connects back to the overall design approach.
 
 ---
 
@@ -82,9 +82,9 @@ In order to make the website less cluttered and reduce the amount of scrolling t
 
 > **this approach has 2 main advantages:**
 >
-> 1. it removes unnessary code from framwork, which can enhance loading speeds.
+> 1. it removes unnecessary code from framework, which can enhance loading speeds.
 >
-> 2. using CSS-grids reduses the amount of divs in the html which makes the syntax more clean and better for screen readers and assistive technologies.
+> 2. using CSS-grids reduces the amount of divs in the html which makes the syntax more clean and better for screen readers and assistive technologies.
 
 **Responsive design**
 
@@ -100,13 +100,13 @@ In order to make the website less cluttered and reduce the amount of scrolling t
 
 > ### Header
 
-The header is designed to be large enought to give breathing room to its elements and feel relaxed, while still hint that there are information visible below that you can scroll to.
+The header is designed to be large enough to give breathing room to its elements and feel relaxed, while still hint that there are information visible below that you can scroll to.
 
 ![header section of FlexGridYoga](assets/img/readme/screenshot-index-header.png)
 
 **Contains the following elements:**
 
-- an inspiering **background image**
+- an inspiring **background image**
 - a fixed, responsive **navigation menu**
 
 - **a welcome heading** with the company name
@@ -126,7 +126,7 @@ The header is designed to be large enought to give breathing room to its element
 
 > ### About Section - instructor presentation
 
-In the about section, the yoga instructor get a chance to introduce herself. This section is set higher in the infromation hirarchy than the other sections below since the _instructor_ really is what sets one community appart from anothers.
+In the about section, the yoga instructor get a chance to introduce herself. This section is set higher in the information hierarchy than the other sections below since the _instructor_ really is what sets one community apart from another.
 
 ![About section of FlexGridYoga](assets/img/readme/screenshot-index-about.png)
 
@@ -138,7 +138,7 @@ In the about section, the yoga instructor get a chance to introduce herself. Thi
 **What it accomplish:**
 
 1.  Let users get to know the instructor.
-2.  Let site owner diffirentiate herself from competitors
+2.  Let site owner differentiate herself from competitors
 
 ---
 
@@ -214,7 +214,7 @@ Existing users can sign in to the website here.
 
 **Design feature:**
 
-> Just like on the join section of the index page, the labels are not displayed but still accessable for screen readers and assistive technology for users who needs it.
+> Just like on the join section of the index page, the labels are not displayed but still accessible for screen readers and assistive technology for users who needs it.
 
 ---
 
@@ -241,11 +241,11 @@ In this section the user gets is faced with the option to become a paying member
 1.  Give users an idea of what is behind the paywall.
 2.  Give site owner a way to promote the paid-for content.
 3.  Let users create a members account.
-4.  Let users poivide payment details to become full members.
+4.  Let users provide payment details to become full members.
 
 **Technical Feature:**
 
-> the video element in the information box let's the user get a hint of what to expect as a paying member. The video runs on youtube using iframe and youtubes sharing feature using embedded code which gives the user full controll over play, pause, volume and playing speed functionalities.
+> the video element in the information box let's the user get a hint of what to expect as a paying member. The video runs on youtube using iframe and youtube's sharing feature using embedded code which gives the user full controls over play, pause, volume and playing speed functionalities.
 
 ---
 
@@ -258,7 +258,7 @@ The footer and the end of the website contains links to the website's social med
 **Contains the following elements**
 
 - List of **links to social media** pages.
-- **Copy right text** for the website. ( in this case my own name since this is an excersise.)
+- **Copy right text** for the website. ( in this case my own name since this is an exercise.)
 
 **Section Goal:**
 
@@ -278,13 +278,13 @@ Herea are some ideas that could further improve this website:
 
 - Flip over cards with more information of yoga benefits on the backside
 - Members login inside the fixed nav-bar for faster login for existing users.
-- Gallery page from social media showcasing the commuinity
+- Gallery page from social media showcasing the community
 
 ---
 
 ## Testing
 
-Here follows some picure of the website on mobile and tablet to show the website might appear on smaller screens than in the feature section.
+Here follows some picture of the website on mobile and tablet to show the website might appear on smaller screens than in the feature section.
 
 ### **Mobile full page:**
 
@@ -292,7 +292,7 @@ Here follows some picure of the website on mobile and tablet to show the website
 >
 > > this is how the index page looks like on mobile
 > >
-> > You can for example see that the benefits section **cards** is shrunken in size and that the join form **input fields** are diplayed in a column, rather than in a row.
+> > You can for example see that the benefits section **cards** is shrunken in size and that the join form **input fields** are displayed in a column, rather than in a row.
 
 > ![full mobile page](assets/img/readme/testing/mobile-full-members.png)
 >
@@ -304,7 +304,7 @@ Here follows some picure of the website on mobile and tablet to show the website
 
 > ![full mobile page](assets/img/readme/testing/mobile-index-header.png)
 >
-> > On mobile, the navigation menu is replaced with a hambuger button.
+> > On mobile, the navigation menu is replaced with a hamburger button.
 > >
 > > This is what the mobile navigation looks like closed.
 
@@ -312,7 +312,7 @@ Here follows some picure of the website on mobile and tablet to show the website
 >
 > > When you click the burger menu button, this is what the navigation menu looks like open.
 > >
-> > You can also see that when open the menu, the menu bar disapears, and the burger icon is animated to become an X.
+> > You can also see that when open the menu, the menu bar disappears, and the burger icon is animated to become an X.
 
 > ![mobile navigation active button](assets/img/readme/testing/mobile-nav-button.png)
 >
@@ -324,12 +324,12 @@ Here follows some picure of the website on mobile and tablet to show the website
 
 > ![Video element from youtube](assets/img/readme/testing/mobile-members-signup1.png)
 >
-> > Here you can see the video element that is dispalyed in the sign-up section of the members page.
+> > Here you can see the video element that is displayed in the sign-up section of the members page.
 > > This video is implemented using an iframe element and embedded code from youtube.
 > >
 > > This video works the same way it would on youtube.com, meaning the video will only play if the user intends it to. The user also has full control over actions such as play, pause, full screen view, video quality and sound.
 > >
-> > Since the video is embeded using iframes, this is like watching youtube from within this website, meaning the creator of what ever video is embedded will get credited by youtube in terms of view counts etc. It can there for also work as a link to a site owners potential youtube page.
+> > Since the video is embedded using iframe, this is like watching youtube from within this website, meaning the creator of what ever video is embedded will get credited by youtube in terms of view counts etc. It can there for also work as a link to a site owners potential youtube page.
 > >
 > > > **important note:**
 > > >
@@ -348,7 +348,7 @@ Here follows some picure of the website on mobile and tablet to show the website
 > ![form field being validated](assets/img/readme/testing/form-field-validation.png)
 >
 > > form fields are validated by html 5.
-> > All form fields are also type specific if applicable, meaning if a forn field expects an email adress, its input will not be accepted as valid if it is missing a correct email formating.
+> > All form fields are also type specific if applicable, meaning if a form field expects an email address, its input will not be accepted as valid if it is missing a correct email formatting.
 > >
 > > in this example you can see an email form being validated because the form field is set to "required".
 
@@ -356,13 +356,13 @@ Here follows some picure of the website on mobile and tablet to show the website
 
 > ![form field being validated](assets/img/readme/testing/lighthouse-report.png)
 >
-> > _Performance_, _Accessibility_ adhearance, _SEO_ and _Best Practices_ have been tested with the inbuild lighthouse tester in chrome developer tools.
+> > _Performance_, _Accessibility_ adherence, _SEO_ and _Best Practices_ have been tested with the inbuilt lighthouse tester in chrome developer tools.
 > >
 > > These are the results.
 > >
 > > **Please Note:**
 > >
-> > The iframe element containing **youtube's code** has been commented out during testing of the website. This is because it contains performance thresholds and yeilds best practice suggestions that are outside the scope of this _front end_ project. see image below for details:
+> > The iframe element containing **youtube's code** has been commented out during testing of the website. This is because it contains performance thresholds and yields best practice suggestions that are outside the scope of this _front end_ project. see image below for details:
 > ![light house suggestions youtube element](assets/img/testing/bugs/../../readme/testing/bugs/bug2.png) 
 
 ### **Validator Tests**
@@ -380,13 +380,13 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
   - No errors were found when passing the single CSS file through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F4ntm4n.github.io%2Fms-one%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - Accessibility:
-  - External accesibility tests were made with no errors through [WAVE](https://wave.webaim.org/report#/https://4ntm4n.github.io/ms-one/index.html)
+  - External accessibility tests were made with no errors through [WAVE](https://wave.webaim.org/report#/https://4ntm4n.github.io/ms-one/index.html)
 
 ### Unfixed Bugs
 
 > **What?**
 >
-> > background of fixed menu bar disapears.
+> > background of fixed menu bar disappears.
 > >
 > > ![navigation bug](assets/img/readme/testing/bugs/bug1.png)
 >
@@ -396,7 +396,7 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 >
 > **Why?**
 >
-> > This is due to the fact that the menu is made with pure CSS and uses a transparent checkbox on top of the hamburger icon. When the checkbox is checked, the menu is toggled, and the navigation bar disapears. If it is left checked, and the viewport enlarged, the menu will disapear but the checkbox will remain checked. This means that all styling that is applied when the checkbox is checked also will remain until you physically uncheck the checkbox.
+> > This is due to the fact that the menu is made with pure CSS and uses a transparent checkbox on top of the hamburger icon. When the checkbox is checked, the menu is toggled, and the navigation bar disappears. If it is left checked, and the viewport enlarged, the menu will disappear but the checkbox will remain checked. This means that all styling that is applied when the checkbox is checked also will remain until you physically uncheck the checkbox.
 >
 > **Solution**
 >
@@ -524,11 +524,11 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 
 ## Credits
 
-In this section I want to give crdits to resourses I have used when creating this website.
+In this section I want to give credits to resources I have used when creating this website.
 
 ### **Technical**
 
-> Here I want to give credit to the resourses I have used that gave me enough knowledge in html and css in order to build this website.
+> Here I want to give credit to the resources I have used that gave me enough knowledge in html and css in order to build this website.
 
 > #### **Code Institute**
 >
@@ -538,7 +538,7 @@ In this section I want to give crdits to resourses I have used when creating thi
 
 > #### **Codecademy** - _Intermediate CSS track_
 >
-> On Codecademy.com I took a course in intermediate CSS after finnishing the course material on Code Institute. Here I learned about flexbox in CSS and also CSS inbuilt grid functionality that I used to create rows for each section of this website.
+> On Codecademy.com I took a course in intermediate CSS after finishing the course material on Code Institute. Here I learned about flexbox in CSS and also CSS inbuilt grid functionality that I used to create rows for each section of this website.
 >
 > > Here is a link to the track on codecademy:
 > > https://www.codecademy.com/learn/learn-intermediate-css
@@ -616,7 +616,7 @@ In this section you can see where the media elements on the website comes from a
 
 > **background image in header on index and members page**
 >
-> > bought from adobestock photos and available on https://adobestock.com/
+> > bought from Adobe stock photos and available on https://adobestock.com/
 
 > **video element in sign-up section on members page**
 >
@@ -646,7 +646,7 @@ This project is the first of five milestone projects in a full stack developer c
 
   - **B**: **not use** any framework to aid me in class creation, grid functionality and design.
 
-  - **C**: Work from a **pre-defined** project suggestion (in this case yoga / mindfullness) to further challange myself and create a, what I can imagine, more life like scenario for a web developer where you put yourself in a clients shoes and work with a topic that is not always aligning with personal interests.
+  - **C**: Work from a **pre-defined** project suggestion (in this case yoga / mindfulness) to further challenge myself and create a, what I can imagine, more life like scenario for a web developer where you put yourself in a clients shoes and work with a topic that is not always aligning with personal interests.
 
 > FlexGrid Yoga - a study in HTML & CSS
 >
