@@ -39,12 +39,19 @@ html {
   background-color: #927397;
 }
 
-h1, h2, h3, h4, h5, h6, legend {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
   font-family: "Fredoka One", cursive;
   color: #927397;
 }
 
-p, a,
+p,
+a,
 label {
   font-family: "Roboto Condensed", helvetica, sans-serif;
   color: #242c2c;
@@ -91,6 +98,11 @@ iframe {
   position: absolute;
   top: -600px;
   left: -50px;
+
+  /* since backgrond color of the entire website is purple, hidden labels 
+  gets a white color heret to remove contrast errors in WAVE accessibility tester 
+  to avoid error confusion */
+  color: white !important;
 }
 
 .overflow {
