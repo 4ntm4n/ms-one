@@ -39,20 +39,12 @@ html {
   background-color: #927397;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-legend {
+h1, h2, h3, h4, h5, h6, legend {
   font-family: "Fredoka One", cursive;
   color: #927397;
 }
 
-p,
-a,
-label {
+p, a, label {
   font-family: "Roboto Condensed", helvetica, sans-serif;
   color: #242c2c;
 }

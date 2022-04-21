@@ -381,7 +381,6 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 - Accessibility:
   - External accesibility tests were made with no errors through [WAVE](https://wave.webaim.org/report#/https://4ntm4n.github.io/ms-one/index.html)
 
-
 ### Unfixed Bugs
 
 > **What?**
