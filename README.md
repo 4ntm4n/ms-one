@@ -6,6 +6,9 @@
 
 ## Project outline
 
+
+
+### **user stories:**
 > Typical users are interested in getting involved with online-classes and tutorship in yoga.
 
 - **The typical end user wants to:**
@@ -28,6 +31,8 @@
   - let new users sign up to newsletter to keep them in the loop of what is happening in the community
   - let users know how they can engage in social media.
   - let existing users log in to view the paid-for content.
+  - Give a hint about what is expected inside the paid members area
+  - Let new users sign up and become full members
 
 ## Approach
 
@@ -304,13 +309,12 @@ Here follows some picure of the website on mobile and tablet to show the website
 > >
 > > This is what the mobile navigation looks like closed.
 
-> ![mobile navigation open](assets/img/testing/readme/testing/mobile-nav-open.png)
->
+> ![mobile navigation open](assets/img/readme/testing/mobile-nav-open.png)
 > > When you click the burger menu button, this is what the navigation menu looks like open.
 > >
 > > You can also see that when open the menu, the menu bar disapears, and the burger icon is animated to become an X.
 
-> ![mobile navigation open](assets/img/readme/testing/mobile-nav-open.png)
+> ![mobile navigation active button](assets/img/readme/testing/mobile-nav-button.png)
 >
 > > When you click a button in the menu, it takes you to the correlating section.
 > >
@@ -409,9 +413,8 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 
 ## **Testing User stories**
 
-In this section we are testing the user stories that was outlined before this website was created in order to check if we have met all user needs.
-
-We are testing the user stories one by one. Click the list items to view its correlating solution.
+> In this section we are testing the user stories that was outlined before this website was created in order to check if we have met all user needs.
+> >We are testing the user stories one by one. Click the list items to view its correlating solution.
 
 - **Typical users wants to:**
 
