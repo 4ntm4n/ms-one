@@ -1,6 +1,6 @@
 # FlexGrid Yoga
 
-![FlexGrid on different screen sizes and devices](assets/img/readme/Screenshot%20from%202022-04-18%2011-50-26.png)
+![FlexGrid on different screen sizes and devices](assets/img/readme/screenshot%20from%202022-04-18%2011-50-26.png)
 
 [**Have a look on your own device**](https://4ntm4n.github.io/ms-one/index.html)
 
@@ -98,7 +98,7 @@ In order to make the website less cluttered and reduce the amount of scrolling t
 
 The header is designed to be large enought to give breathing room to its elements and feel relaxed, while still hint that there are information visible below that you can scroll to.
 
-![header section of FlexGridYoga](assets/img/readme/Screenshot-index-header.png)
+![header section of FlexGridYoga](assets/img/readme/screenshot-index-header.png)
 
 **Contains the following elements:**
 
@@ -124,7 +124,7 @@ The header is designed to be large enought to give breathing room to its element
 
 In the about section, the yoga instructor get a chance to introduce herself. This section is set higher in the infromation hirarchy than the other sections below since the _instructor_ really is what sets one community appart from anothers.
 
-![About section of FlexGridYoga](assets/img/readme/Screenshot-index-about.png)
+![About section of FlexGridYoga](assets/img/readme/screenshot-index-about.png)
 
 **Contains the following elements:**
 
@@ -144,7 +144,7 @@ This section informs the users of som of the benefits of yoga.
 
 The goal with this is to inspire users interest in the subject. This is done with six interactive cards, each presenting one unique benefit you gain from doing yoga.
 
-![Benefits section of FlexGridYoga](assets/img/readme/Screenshot-index-benefits.png)
+![Benefits section of FlexGridYoga](assets/img/readme/screenshot-index-benefits.png)
 
 **Contains the following elements:**
 
@@ -163,7 +163,7 @@ The goal with this is to inspire users interest in the subject. This is done wit
 
 New users might be hesitant to become a full paying member on the first visit. So in order for the site owner to keep users in the loop, and in order to let new users connect and learn more about the future content and what value it would bring to them, they have an option to join a newsletter where the site owner has the potential to reach interested visitors in the future via email.
 
-![Join section of FlexGridYoga](assets/img/readme/Screenshot-index-join.png)
+![Join section of FlexGridYoga](assets/img/readme/screenshot-index-join.png)
 
 **Contains the following elements:**
 
@@ -194,7 +194,7 @@ The header inherits most of the styling from the index page. but the welcome tex
 
 Existing users can sign in to the website here.
 
-![header on members page of FlexGridYoga](assets/img/readme/Screenshot-members-login.png)
+![header on members page of FlexGridYoga](assets/img/readme/screenshot-members-login.png)
 
 **Contains the following elements**
 
@@ -218,7 +218,7 @@ Existing users can sign in to the website here.
 
 In this section the user gets is faced with the option to become a paying member of the website and gain full access to its content.
 
-![sign up section on members page of FlexGridYoga](assets/img/readme/Screenshot-members-signup.png)
+![sign up section on members page of FlexGridYoga](assets/img/readme/screenshot-members-signup.png)
 
 **Contains the following elements**
 
@@ -249,7 +249,7 @@ In this section the user gets is faced with the option to become a paying member
 
 The footer and the end of the website contains links to the website's social media platforms.
 
-![Footer of FlexGridYoga](assets/img/readme/Screenshot-index-footer.png)
+![Footer of FlexGridYoga](assets/img/readme/screenshot-index-footer.png)
 
 **Contains the following elements**
 
@@ -383,9 +383,6 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 > The imput field it is reffering to is a transparent checkbox that is placed over the hamburger menu button that only appears on mobile screens and is used to toggle the menu.
 > ![image of false WAVE error](assets/img/readme/testing/falseError.png)
 
-
-
-
 ### Unfixed Bugs
 
 > **What?**
@@ -409,7 +406,9 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 > > 2.  You could re-create the hamburger menu using a method that involves javascript. (This is arguably the best solution but N/A for this project.)
 
 ---
+
 ## **Testing User stories**
+
 In this section we are testing the user stories that was outlined before this website was created in order to check if we have met all user needs.
 
 We are testing the user stories one by one. Click the list items to view its correlating solution.
@@ -420,14 +419,14 @@ We are testing the user stories one by one. Click the list items to view its cor
       <summary>
         Know more about site and yoga instructor
       </summary>
-      <img src="assets/img/readme/Screenshot-index-about.png">  
+      <img src="assets/img/readme/screenshot-index-about.png">  
     </details>
 
   - <details>
       <summary>
         Be able to subscribe to news coming from community regarding techniques and upcoming yoga sessions
       </summary>  
-      <img src="assets/img/readme/Screenshot-index-join.png">
+      <img src="assets/img/readme/screenshot-index-join.png">
     </details>
 
   - <details>
@@ -448,10 +447,11 @@ We are testing the user stories one by one. Click the list items to view its cor
       <summary>
         Connect to community on social medias
       </summary>
-      <img src="assets/img/readme/Screenshot-index-footer.png">  
-    </details>  
+      <img src="assets/img/readme/screenshot-index-footer.png">  
+    </details>
 
 - **Existing users wants to:**
+
   - <details>
       <summary>
         Sign in to their account and conduct yoga sessions.
@@ -465,29 +465,29 @@ We are testing the user stories one by one. Click the list items to view its cor
       <summary>
         Educate new site visitors about herself
       </summary>
-      <img src="assets/img/readme/Screenshot-index-about.png">  
+      <img src="assets/img/readme/screenshot-index-about.png">  
     </details>
 
   - <details>
       <summary>
         give breif overview of the benefits of yoga
       </summary>  
-      <img src="assets/img/readme/Screenshot-index-benefits.png">
+      <img src="assets/img/readme/screenshot-index-benefits.png">
     </details>
 
   - <details>
       <summary>
         let new users sign up to newsletter to keep them in the loop of what is happening in the community
       </summary>
-      <img src="assets/img/readme/Screenshot-index-join.png"> 
+      <img src="assets/img/readme/screenshot-index-join.png"> 
     </details>
 
   - <details>
       <summary>
         let users know how they can engage in social media.
       </summary>
-      <img src="assets/img/readme/Screenshot-index-footer.png">  
-    </details>  
+      <img src="assets/img/readme/screenshot-index-footer.png">  
+    </details>
 
   - <details>
       <summary>
