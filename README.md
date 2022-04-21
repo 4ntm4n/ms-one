@@ -362,7 +362,8 @@ Here follows some picure of the website on mobile and tablet to show the website
 > >
 > > **Please Note:**
 > >
-> > The iframe element containing **youtube's code** has been commented out during testing of the website.
+> > The iframe element containing **youtube's code** has been commented out during testing of the website. This is because it contains performance thresholds and best practice suggestions that are outside the scope of this _front end_ project. see image below for details:
+> ![light house suggestions youtube element](assets/img/testing/bugs/../../readme/testing/bugs/bug2.png) 
 
 ### **Validator Tests**
 
