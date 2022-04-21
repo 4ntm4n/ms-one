@@ -304,13 +304,13 @@ Here follows some picure of the website on mobile and tablet to show the website
 > >
 > > This is what the mobile navigation looks like closed.
 
-> ![mobile navigation open](assets/img/testing/../readme/testing/mobile-nav-open.png)
+> ![mobile navigation open](assets/img/testing/readme/testing/mobile-nav-open.png)
 >
 > > When you click the burger menu button, this is what the navigation menu looks like open.
 > >
 > > You can also see that when open the menu, the menu bar disapears, and the burger icon is animated to become an X.
 
-> ![mobile navigation open](assets/img/testing/../readme/testing/mobile-nav-button.png)
+> ![mobile navigation open](assets/img/readme/testing/mobile-nav-open.png)
 >
 > > When you click a button in the menu, it takes you to the correlating section.
 > >
@@ -318,7 +318,7 @@ Here follows some picure of the website on mobile and tablet to show the website
 
 ### **Video Elements:**
 
-> ![Video element from youtube](assets/img/testing/../readme/testing/mobile-members-signup1.png)
+> ![Video element from youtube](assets/img/readme/testing/mobile-members-signup1.png)
 >
 > > Here you can see the video element that is dispalyed in the sign-up section of the members page.
 > > This video is implemented using an iframe element and embedded code from youtube.
@@ -341,7 +341,7 @@ Here follows some picure of the website on mobile and tablet to show the website
 
 ### **Form Field Validation:**
 
-> ![form field being validated](assets/img/testing/../readme/testing/form-field-validation.png)
+> ![form field being validated](assets/img/readme/testing/form-field-validation.png)
 >
 > > form fields are validated by html 5.
 > > All form fields are also type specific if applicable, meaning if a forn field expects an email adress, its input will not be accepted as valid if it is missing a correct email formating.
@@ -350,7 +350,7 @@ Here follows some picure of the website on mobile and tablet to show the website
 
 ### **Lighthouse Results:**
 
-> ![form field being validated](assets/img/testing/../readme/testing/lighthouse-report.png)
+> ![form field being validated](assets/img/readme/testing/lighthouse-report.png)
 >
 > > _Performance_, _Accessibility_ adhearance, _SEO_ and _Best Practices_ have been tested with the inbuild lighthouse tester in chrome developer tools.
 > >
@@ -376,12 +376,15 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 
 > **Do Note:**
 >
-> When you check the website on WAVE, it warns you for a contrast error on the website. The warning is irrelevant since it is refering to a label for an input field.
+> When you check the website on WAVE, it warns you for a contrast error on the website. The warning is irrelevant since it is refering to a label for an input field that is hidden.
 >
 > The label in question is hidden on purpose for styling reasons and is placed off screen by the class hidden. _(see image below)_
 >
 > The imput field it is reffering to is a transparent checkbox that is placed over the hamburger menu button that only appears on mobile screens and is used to toggle the menu.
 > ![image of false WAVE error](assets/img/readme/testing/falseError.png)
+
+
+
 
 ### Unfixed Bugs
 
@@ -404,6 +407,108 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 > > 1.  You can redesign the menu so that it covers the entire screen, and remove the animation that removes the nav-bar. (This creates some other UX issues).
 > >
 > > 2.  You could re-create the hamburger menu using a method that involves javascript. (This is arguably the best solution but N/A for this project.)
+
+---
+## **Testing User stories**
+In this section we are testing the user stories that was outlined before this website was created in order to check if we have met all user needs.
+
+We are testing the user stories one by one. Click the list items to view its correlating solution.
+
+- **Typical users wants to:**
+
+  - <details>
+      <summary>
+        Know more about site and yoga instructor
+      </summary>
+      <img src="assets/img/readme/Screenshot-index-about.png">  
+    </details>
+
+  - <details>
+      <summary>
+        Be able to subscribe to news coming from community regarding techniques and upcoming yoga sessions
+      </summary>  
+      <img src="assets/img/readme/Screenshot-index-join.png">
+    </details>
+
+  - <details>
+      <summary>
+        Get a hint about what is expected inside the paid members area
+      </summary>
+      <img src="assets/img/testing/../readme/testing/mobile-members-signup1.png">  
+    </details>
+
+  - <details>
+      <summary>
+        Be able to sign up and become a full member, attending live- and pre recorded -yoga sessions
+      </summary>
+      <img src="assets/img/readme/testing/mobile-members-signup2.png">    
+    </details>
+
+  - <details>
+      <summary>
+        Connect to community on social medias
+      </summary>
+      <img src="assets/img/readme/Screenshot-index-footer.png">  
+    </details>  
+
+- **Existing users wants to:**
+  - <details>
+      <summary>
+        Sign in to their account and conduct yoga sessions.
+      </summary>
+      <img src="assets/img/readme/testing/mobile-members-login.png">  
+    </details>
+
+- **Site owner wants to:**
+
+  - <details>
+      <summary>
+        Educate new site visitors about herself
+      </summary>
+      <img src="assets/img/readme/Screenshot-index-about.png">  
+    </details>
+
+  - <details>
+      <summary>
+        give breif overview of the benefits of yoga
+      </summary>  
+      <img src="assets/img/readme/Screenshot-index-benefits.png">
+    </details>
+
+  - <details>
+      <summary>
+        let new users sign up to newsletter to keep them in the loop of what is happening in the community
+      </summary>
+      <img src="assets/img/readme/Screenshot-index-join.png"> 
+    </details>
+
+  - <details>
+      <summary>
+        let users know how they can engage in social media.
+      </summary>
+      <img src="assets/img/readme/Screenshot-index-footer.png">  
+    </details>  
+
+  - <details>
+      <summary>
+        let existing users log in to view the paid-for content.
+      </summary>
+      <img src="assets/img/readme/testing/mobile-members-login.png">    
+    </details>
+
+  - <details>
+      <summary>
+        Give a hint about what is expected inside the paid members area
+      </summary>
+      <img src="assets/img/testing/../readme/testing/mobile-members-signup1.png">  
+    </details>
+
+  - <details>
+      <summary>
+        Let new users sign up and become full members
+      </summary>
+      <img src="assets/img/readme/testing/mobile-members-signup2.png">    
+    </details>
 
 ---
 
