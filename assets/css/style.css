@@ -36,10 +36,7 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body{
-  background-color: #412a44;
+  background-color: #927397;
 }
 
 h1, h2, h3, h4, h5, h6, legend {
@@ -49,7 +46,7 @@ h1, h2, h3, h4, h5, h6, legend {
 
 p, a, label {
   font-family: "Roboto Condensed", helvetica, sans-serif;
-  color: #0c0c0c;
+  color: #242c2c;
 }
 
 p a {
@@ -79,6 +76,14 @@ a {
 fieldset {
   padding: 2em;
   border: none;
+}
+
+legend {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em auto;
+  display: block;
+  float: left;
 }
 
 iframe {
@@ -198,6 +203,8 @@ details summary.btn {
   font-size: 1.8em;
   color: #521a5a;
 }
+
+
 
 /* header section --------------------------------- */
 
@@ -604,13 +611,7 @@ footer {
   padding: 2em;
 }
 
-legend {
-  text-align: center;
-  font-size: 1.5em;
-  margin: 1em auto;
-  display: block;
-  float: left;
-}
+
 fieldset {
   margin: 10px;
 }
