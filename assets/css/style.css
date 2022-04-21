@@ -101,8 +101,8 @@ iframe {
 
   /* since backgrond color of the entire website is purple, hidden labels 
   gets a black color here to remove contrast errors in WAVE accessibility tester 
-  which avoids error confusion. 
-  (Note: this does not do any _real_ diffrenece, but removes two errors) */
+  which avoids confusion. 
+  (Note: this does not do any _real_ diffrenece, but removes two errors in the validator) */
   background-color: white !important;
   color: black !important;
 }

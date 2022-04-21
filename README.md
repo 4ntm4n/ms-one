@@ -381,14 +381,6 @@ To extend the validation of the HTML and CSS, external validators from w3c has b
 - Accessibility:
   - External accesibility tests were made with no errors through [WAVE](https://wave.webaim.org/report#/https://4ntm4n.github.io/ms-one/index.html)
 
-> **Do Note:**
->
-> When you check the website on WAVE, it warns you for a contrast error on the website. The warning is irrelevant since it is refering to a label for an input field that is hidden.
->
-> The label in question is hidden on purpose for styling reasons and is placed off screen by the class hidden. _(see image below)_
->
-> The imput field it is reffering to is a transparent checkbox that is placed over the hamburger menu button that only appears on mobile screens and is used to toggle the menu.
-> ![image of false WAVE error](assets/img/readme/testing/falseError.png)
 
 ### Unfixed Bugs
 
