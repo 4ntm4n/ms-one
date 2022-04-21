@@ -100,9 +100,9 @@ iframe {
   left: -50px;
 
   /* since backgrond color of the entire website is purple, hidden labels 
-  gets a white color heret to remove contrast errors in WAVE accessibility tester 
-  to avoid error confusion */
-  color: white !important;
+  gets a black color here to remove contrast errors in WAVE accessibility tester 
+  which avoids error confusion. (this does not do any _real_ diffrenece, but removes the error) */
+  color: black !important;
 }
 
 .overflow {
