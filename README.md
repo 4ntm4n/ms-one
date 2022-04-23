@@ -35,9 +35,15 @@
 
 ## Approach
 
+### Wireframes
+The wireframes for this project focuses on the layout of the different sections to ensure that balance is created within each section, and also to make sure that sections are not repetitive even though similar elements are being used across the website.  
+
+These wireframes are created using Adobe Illustrator.
+![FlexGrid Yoga wireframes](assets/img/readme/wireframe.png)
+
 ### Design Approach
 
-The design of the website is created with the benefits of yoga in mind. the text should be easy to read and not be distracted by design elements around it. the design features are created to feel relaxed positive and light
+The design of the website is created with the benefits of yoga in mind. the text should be easy to read and not be distracted by design elements around it. the design features are created to feel relaxed positive and light weight, where elements have room to breath. 
 
 **Design features**
 
